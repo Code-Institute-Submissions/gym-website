@@ -1,4 +1,4 @@
-# Your Project's Name
+# Gym Website
 
 One or two paragraphs providing an overview of your project.
 
@@ -78,7 +78,19 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from https://planethealthlimerick.ie/ .
+The format of the planet health limerick site has some similarities to Code Institute Student Mini Project with Bootstrap 4.
+- The format of this README file came from the Code Institute.
+- The template for this project is the Code Institute student template for Gitpod.
+
+
+### Revision history
+Initial commit.
+- Created GitHub project from Code Institute template.
+- Copied in GitHub this README file from Code Institute Example README.md template.
+- Opened GitHub project in GitPod.
+- Started README Acknowledgements.
+- Created project folder structure with index.html and style.css files.
 
 
 
@@ -86,7 +98,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome fene20,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
