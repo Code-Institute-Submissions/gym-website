@@ -13,6 +13,55 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+
+
+
+
+[Home Page](assets/wireframes/gym_website_home.pdf)
+    
+This is the landing page with a hero image.
+This page ontains the Menu items.
+All pages including the home page wil  have a fixed header and footer.
+The header will be setup in thirds. See Phone where the Gym Icon is followed by Home over Gallery and Classes over contact us.
+See Desktop where the footer is also setup in thirds.
+See Phone were the footer is shown in two rows. This may be changed to three rows depending on the font size.
+The Icon wil contain the Name of the gym.
+The name of the gym (not displayed in the wireframe) may also be included above the Menu bar so that the Desktop does not look too basic.
+
+
+
+[Classes Page](assets/wireframes/gym_website_classes.pdf)
+
+The classes page is the most important page for new and existing members.
+This is the one page that will be used the most.
+Classes can be pay as you go and free to members with certain membership packages.
+The timetable on the Tablet will likely be a squeezed version of the Desktop timetable.
+A squashed and wrapped Desktop timetable will not work on the Phone.
+The Phone wireframe shows two Desktop columns, one for the Times and one for the Days of the week.
+This however does not look well.
+The Phone will need a format of it's owm with the Day of the week followed by columns with headings of Times and Classes.
+Coding this will be a challenge and will likely require a library perhaps Bootstrap4.
+The timetable will need to be scrolled up/down.
+There is a gap in the footer where the table is visable.
+The footer format will be coded to prevent this.
+
+
+
+[Contact Page](assets/wireframes/gym_website_contact.pdf)
+
+The Contact page has details of how to contact the gym, a map to help locate the gym and a contact for so that one can submit queries when one is e.g. at work.
+Most new users will simply just need to ring or email the Gym or figure out where it is on the map.
+Both existing and new members may wish to book a session with a particular instructor or enquire about the exercises in various casses etc.
+The Phone Contact page is shown without the fixed footer.
+
+
+
+[Gallery page](assets/wireframes/gym_website_gallery.pdf)
+
+The Gallery page has images from the Gym to entice new mwmbers to join. These images may highlight particular equipment that the Gym has.
+The Desktop may look nicer if the images were in thirds, i.e. three across instead of two as shown in the wireframe.
+
+
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -34,6 +83,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+
+
+- [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/)
+    - This project used **Balsamiq Wireframes** to generate the wireframes for this project.
 
 
 ## Testing
@@ -78,21 +131,32 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from https://planethealthlimerick.ie/ .
+- Inspiration for this project was received from https://planethealthlimerick.ie/ .
 The format of the planet health limerick site has some similarities to Code Institute Student Mini Project with Bootstrap 4.
 - The format of this README file came from the Code Institute.
 - The template for this project is the Code Institute student template for Gitpod.
 
 
 ### Revision history
-Initial commit.
+Initial commit
+9th February 2021
 - Created GitHub project from Code Institute template.
 - Copied in GitHub this README file from Code Institute Example README.md template.
 - Opened GitHub project in GitPod.
 - Started README Acknowledgements.
 - Created project folder structure with index.html and style.css files.
 
+### Revision history
+Add Wireframes
+14th February 2021
+- Created Wireframes with Balsamiq Wireframes.
+- Added to wireframes directory to assets directory.
+- Updated README UX.
 
+
+
+TBD's
+Fix pdf links in MD above..
 
 
 
