@@ -1,0 +1,84 @@
+/* Credit: Code Institute Tutorial */
+/* @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300'); */
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:500');
+
+/* Credit: Code Institute Tutorial */
+ * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Credit: Code Institute Tutorial */
+body {
+    font-family: Lato;
+    color: #444444; /* Dark colour gives a stronger contrast */
+}
+
+/* Credit: Code Institute Tutorial */
+/* Keep h2 on menu bar for now */
+h2 {
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555; /*Darker than Charcoal */
+}
+
+
+
+
+
+
+/* Credit: Code Institute Tutorial */
+#icon {
+   float: left;  /* Have 2 icons Float left keeps them together */
+   font-size: 280%;
+   color: #555555; /*Darker than Charcoal */
+}
+
+/* Credit: Code Institute Tutorial */
+#menu {
+    font-size:150%;
+    list-style-type: none; /* No ul li dots */
+    letter-spacing: 4px;   /* same as h2 */
+}
+
+#icon, #menu {
+    line-height: 75px; /* both icon and menu are centered inside the same height of 75px */
+    text-decoration: none;
+}
+
+/* Menu items floated to the right from the start of the list so the list ends up in reverse order */
+#menu li {
+   float: right;
+   margin-right: 30px; /* margin for each menu item */
+}
+
+/* Credit: Code Institute Tutorial */
+#menu a {
+    text-decoration: none; /* no underline */
+    color: inherit; /*inherit from closest parent with color set */
+}
+
+#menu a:hover {
+    /* font-weight: bold;   Bolder test is bigger and makes the other menu items move */
+   color: #941111;/
+}
+
+
+.active {
+    border-bottom: 1px solid #777777; /* highlight active page */
+}
+
+/*--------------------Footer------------------*/
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    
+}
+
+div p {
+    line-height: 75px;
+}
+

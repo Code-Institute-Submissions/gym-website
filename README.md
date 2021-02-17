@@ -150,13 +150,35 @@ Initial commit
 Add Wireframes
 14th February 2021
 - Created Wireframes with Balsamiq Wireframes.
-- Added to wireframes directory to assets directory.
-- Updated README UX.
+- Added to wireframes directory in assets directory.
+- Updated README UX section.
 
+Add index.html Menu
+17th February 2021
+ - Added menu items.
+ - Added footer items.
+
+
+Challenges
+index.html
+Lato font weight of 300 seemed difficult to see on the desktop.
+Looks better darkened with font weight of 500 but then cannot go darker with a hover - so went red instead.
+The underscore is used to highlight the active page so experimenting with not using this feature twice by using for hover too.
+Changing font to bold worked ok with a 300 font weight but with a font weight of 500 the letters got bigger and moved the menu items 
+on the left of the hover even more left. Tried increasing the letter spacing to fix this menu "wobble" but this did not work.
+Using h6 made the text clear but bold did not highlight a hover.
+Will leave as is for now - figure out another day.
 
 
 TBD's
-Fix pdf links in MD above..
+- Fix pdf links in MD above.
+- fix fonts.
+- Change icon?
+- Fix reverse order menu so index.html does not need to be reversed.
+
+
+
+
 
 
 
