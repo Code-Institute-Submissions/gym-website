@@ -4,52 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gym Website</title>
+    <!--External styles loaded into browser first -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <!--Followed by local styles -->
     <link href="assets/css/style.css" rel="stylesheet" type ="text/css"/>
 </head>
 <body>
-    <header>
-         
+    
+    <header >
+      <div> 
         <!--Leave home as both a working Icon and h2 text for now-->
         
         
         <a href="index.html" id="icon"><i class="fas fa-child"></i></a>   <!--  neither dumbbell nor running icons are working right now.      -->
         <a href="index.html" id="icon"><h2>Gym Website</h2></a>
         
-       
-
-
         <nav> 
             <ul id="menu">
-            
                 <!-- Reverse list due to float right styling-->
                 <li>
-                  
                     <a href="contact.html">Contact Us</a>
-
                 </li>
                 <li>
-
                     <a href="gallery.html">Gallery</a>
-
                 </li>
                 <li>
-
                     <a href="classes.html">Classes</a>
-
                 </li>
                 <li>
-
                     <a class="active" href="index.html">Home</a>
-
                 </li>
-
             </ul>
         </nav>
+    
+    </div>
     </header>
+   
+
+    <div id="clear-previous-floats">
+        <!--Empty div to stop div's below from wrapping up into the menu bar-->
+    </div>
+
+ <!--  
     <section>
-        hero image here
+        <div id="hero-image"></div>
+    </section>  
+
+ -->
+ 
+    <section id="contact-sections">
+        <div id="left-details">
+        <h2>Contact Details</h2>
+        <p> </p>
+        <h3>Address</h3>
+        <h3> </h3>
+        <h3>Local Gym,</h3>
+        <h3>15 Main Street,</h3>
+        <h3>Limerick</h3>
+        </div>
+        <div id="middle-map"><h2>Our Location</h2></div>
+        <div id="right-form"><h2>Contact Form</h2></div>
     </section>
+
+ 
+
+
     <footer>
         footer - 3 sections
         <div>

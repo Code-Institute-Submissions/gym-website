@@ -27,6 +27,13 @@ h2 {
 
 
 
+/* Credit: Code Institute Tutorial */
+#menu {
+    font-size:150%;
+    list-style-type: none; /* No ul li dots */
+    letter-spacing: 4px;   /* same as h2 */
+}
+
 
 
 /* Credit: Code Institute Tutorial */
@@ -36,22 +43,25 @@ h2 {
    color: #555555; /*Darker than Charcoal */
 }
 
-/* Credit: Code Institute Tutorial */
-#menu {
-    font-size:150%;
-    list-style-type: none; /* No ul li dots */
-    letter-spacing: 4px;   /* same as h2 */
-}
-
-#icon, #menu {
-    line-height: 75px; /* both icon and menu are centered inside the same height of 75px */
-    text-decoration: none;
-}
-
 /* Menu items floated to the right from the start of the list so the list ends up in reverse order */
 #menu li {
    float: right;
    margin-right: 30px; /* margin for each menu item */
+}
+
+header {
+ border-bottom: 10px;
+}
+
+/*
+header a {
+    display: inline-block;
+}
+*/
+
+#icon, #menu {
+    line-height: 75px; /* both icon and menu are centered inside the same height of 75px */
+    text-decoration: none;
 }
 
 /* Credit: Code Institute Tutorial */
@@ -70,6 +80,30 @@ h2 {
     border-bottom: 1px solid #777777; /* highlight active page */
 }
 
+#clear-previous-floats {
+    clear: both;
+}
+
+/*--------------------Hero------------------*/
+
+/* Credit: Code Institute Tutorial */
+#hero-image {
+    height:600px;
+    width: 100%;
+    /* Temporary image until an image is sourced that works with the web page */
+    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+    overflow: hidden; /* image does not overflow under menu bar */
+}
+
+/* Credit: Code Institute Tutorial 
+#hero-outer {
+    height:600px;
+    width: 100%;
+    overflow: hidden; image does not overflow under menu bar 
+}
+*/
+
+
 /*--------------------Footer------------------*/
 
 footer {
@@ -81,4 +115,43 @@ footer {
 div p {
     line-height: 75px;
 }
+
+/*--------------------Contact------------------*/
+
+/* Credit: Code Institute Tutorial */
+#contact-sections {
+    height: 75px;
+}
+
+#contact-sections > div{
+  display: inline-block; /* This is needed to keep contact form inline with our location */
+}
+
+/* Credit: Code Institute Tutorial */
+#left-details {
+    padding-top: 30px;
+    width:33%;
+    float: left;
+    background-color: red;
+}
+
+
+
+/* Credit: Code Institute Tutorial */
+#right-form {
+    padding-top: 30px;
+    width:33%;
+    float: right;
+    background-color: orange;
+}
+
+
+/* Credit: Code Institute Tutorial */
+#middle-map {  /* this style must follow left and right styles for auto to work */
+    padding-top: 30px;
+    width:33%;
+    margin: 0 auto;
+    background-color: green;
+}
+
 

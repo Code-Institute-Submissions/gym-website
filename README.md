@@ -147,16 +147,25 @@ Initial commit
 - Created project folder structure with index.html and style.css files.
 
 ### Revision history
-Add Wireframes
+Add Wireframes (commit message)
 14th February 2021
 - Created Wireframes with Balsamiq Wireframes.
 - Added to wireframes directory in assets directory.
 - Updated README UX section.
 
-Add index.html Menu
+Add index.html Menu (commit message)
 17th February 2021
  - Added menu items.
  - Added footer items.
+
+Start Middle section (commit message)
+20th February 2021
+- Mid section of home (hero image) and contact us (contact left, middle and right) both added to index.html.
+- Hero image section is commented out when contact us is being worked on etc.
+- Supports working on one HTML file until the very end when index.html will be saved as other html files.
+- Insert temporary hero image from Love Running lesson.
+- Started Contact section.
+
 
 
 Challenges
@@ -169,12 +178,26 @@ on the left of the hover even more left. Tried increasing the letter spacing to 
 Using h6 made the text clear but bold did not highlight a hover.
 Will leave as is for now - figure out another day.
 
+Menu Bar and Contact sections.
+Contact section div's were moving up between icon and menu items.
+Tried inline on every element in both menu bar and contact section.
+Fixed with a clear of both previous floats.
+
+Contact sections
+Right section was below other two.
+use contact-sections > div{ display: inline-block; } to fix. As used by Blue and Orange boxes during lessons.
+
+Blank Line
+Was expecting <h3> </h3> to give a blank line of text with a carriage return.
+Block element <p> </p> also did not give a blank line with a carriage return.
+
 
 TBD's
 - Fix pdf links in MD above.
 - fix fonts.
 - Change icon?
 - Fix reverse order menu so index.html does not need to be reversed.
+- Add blank line.
 
 
 
