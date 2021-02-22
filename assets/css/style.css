@@ -154,4 +154,12 @@ div p {
     background-color: green;
 }
 
+#uppercase {
+    text-transform: uppercase;
+}
+
+
+input {
+   width: 100%; /* 100% of 33%  */
+}
 

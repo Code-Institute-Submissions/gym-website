@@ -166,17 +166,25 @@ Start Middle section (commit message)
 - Insert temporary hero image from Love Running lesson.
 - Started Contact section.
 
+Start Contact section.
+22nd February 2021
+- Add contact details on L.H.S.
+- Add map in middle.
+- Add form on R.H.S. Needs to be styled.
+
 
 
 Challenges
+
 index.html
 Lato font weight of 300 seemed difficult to see on the desktop.
-Looks better darkened with font weight of 500 but then cannot go darker with a hover - so went red instead.
+Looks better darkened with font weight of 500 but then cannot go darker with a hover.
 The underscore is used to highlight the active page so experimenting with not using this feature twice by using for hover too.
 Changing font to bold worked ok with a 300 font weight but with a font weight of 500 the letters got bigger and moved the menu items 
 on the left of the hover even more left. Tried increasing the letter spacing to fix this menu "wobble" but this did not work.
 Using h6 made the text clear but bold did not highlight a hover.
-Will leave as is for now - figure out another day.
+Changing colour to red works ok.
+
 
 Menu Bar and Contact sections.
 Contact section div's were moving up between icon and menu items.
@@ -190,7 +198,8 @@ use contact-sections > div{ display: inline-block; } to fix. As used by Blue and
 Blank Line
 Was expecting <h3> </h3> to give a blank line of text with a carriage return.
 Block element <p> </p> also did not give a blank line with a carriage return.
-
+Blank space is ignored by HTML. White text on a white background seems too complicated.
+Coders Coffeehouse lesson used <br> which was a carriage return in the middle of an address.
 
 TBD's
 - Fix pdf links in MD above.

@@ -14,8 +14,6 @@
     <header >
       <div> 
         <!--Leave home as both a working Icon and h2 text for now-->
-        
-        
         <a href="index.html" id="icon"><i class="fas fa-child"></i></a>   <!--  neither dumbbell nor running icons are working right now.      -->
         <a href="index.html" id="icon"><h2>Gym Website</h2></a>
         
@@ -40,7 +38,7 @@
     </div>
     </header>
    
-
+    <!--Clear previous floats-->
     <div id="clear-previous-floats">
         <!--Empty div to stop div's below from wrapping up into the menu bar-->
     </div>
@@ -53,22 +51,59 @@
  -->
  
     <section id="contact-sections">
+        <!--Left-->
         <div id="left-details">
-        <h2>Contact Details</h2>
-        <p> </p>
-        <h3>Address</h3>
-        <h3> </h3>
-        <h3>Local Gym,</h3>
-        <h3>15 Main Street,</h3>
-        <h3>Limerick</h3>
+            <h2>Contact Details</h2>
+            <br>
+            <br>
+            <h3 id="uppercase">Address</h3>
+            <h3>Local Gym,</h3>
+            <h3>15 Main Street,</h3>
+            <h3>Limerick</h3>
+            <br>
+            <br>
+            <h3 id="uppercase">Email</h3>
+            <h3>gym-website@hotmail.com</h3>
+            <br>
+            <h3 id="uppercase">Phone</h3>
+            <h3>061-123456</h3>
         </div>
-        <div id="middle-map"><h2>Our Location</h2></div>
-        <div id="right-form"><h2>Contact Form</h2></div>
+        
+        <!--Middle-->
+        <div id="middle-map"><h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d54759.176278212864!2d-8.641260592900117!3d52.65931730541745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slimerick%20city%20centre!5e0!3m2!1sen!2sie!4v1613917383133!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <!--Right-->
+        <div id="right-form"><h2>Contact Form</h2>
+        
+            <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+                <label for="fname"></label>
+                <input type="text" id="fname" name="first_name" placeholder="First Name" required>
+
+                <label for="lname"></label>
+                <input type="text" id="lname" name="last_name" placeholder="Last Name" required>
+
+                <label for="email"></label>
+                <input type="email" id="email" name="email_address" placeholder="Email Address" required>
+
+                <label for="message"></label>
+                <input type="text" id="message" name="user_message" placeholder="Message" required>
+
+                <input type="submit">
+
+            </form>
+        
+        </div>
+
     </section>
 
- 
+    <!--Clear previous floats-->
+     <div id="clear-previous-floats">
+        <!--Empty div to stop div's below from wrapping up into the menu bar-->
+    </div>
 
-
+    <!--Footer-->
     <footer>
         footer - 3 sections
         <div>
