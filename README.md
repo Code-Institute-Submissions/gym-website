@@ -88,6 +88,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/)
     - This project used **Balsamiq Wireframes** to generate the wireframes for this project.
 
+- [Icons](https://fontawesome.com/)
+    - This project used free **Fontawesome** icons.
+    - The icons were, the child icon, facebook icon and instagram icon.
 
 ## Testing
 
@@ -166,12 +169,16 @@ Start Middle section (commit message)
 - Insert temporary hero image from Love Running lesson.
 - Started Contact section.
 
-Start Contact section.
+Start Contact section (commit message)
 22nd February 2021
 - Add contact details on L.H.S.
 - Add map in middle.
 - Add form on R.H.S. Needs to be styled.
 
+Start Footer Section (commit message)
+22nd February 2021
+- Move map section to the right. This supports one background image behind contact details and contact form.
+- Align Footer with Contact section above.
 
 
 Challenges
@@ -200,6 +207,41 @@ Was expecting <h3> </h3> to give a blank line of text with a carriage return.
 Block element <p> </p> also did not give a blank line with a carriage return.
 Blank space is ignored by HTML. White text on a white background seems too complicated.
 Coders Coffeehouse lesson used <br> which was a carriage return in the middle of an address.
+
+Gap
+Gap between middle and right sections. Inspecting code did not highlight any stray padding.
+Gap was due to 1% left over from giving 33% to each of the three sections.
+Changed mid section to 34% wide.
+
+Facebook and Instagram Icons not visible on the right of the screen.
+Contact section background set to Red, Green and Orange during page development.
+Body set to left and right 10px margin.
+Footer is inside body.
+Footer had margin on left but none on right.
+Looking at Google Inspect Element.
+The footer was starting on the left but was overflowing to the right.
+The footer left section was also to the right of the contact details section above.
+The footer sections seemed to getting set as a percentage of the full page width not the page width less the margins.
+Changed left and right body margin to 1%.
+Changed footer width to 98%.
+This is a workaround. With more time this can be debugged more.
+
+Note
+The Home page has "just" a hero image in the center.
+The Contact page had 3 sections across the page, the same as the footer.
+This is why the contact page (labelled as index.html) was debugged first.
+
+Social Media Icons
+The social media icons in the footer were appearing above the footer.
+The footer has two sections top and bottom.
+The "window" was being applied to the top section only.
+The fix was to set the bottom section fixed to the bottom and the top section set relative to it.   
+
+
+
+
+
+
 
 TBD's
 - Fix pdf links in MD above.

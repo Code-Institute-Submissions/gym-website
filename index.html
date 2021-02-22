@@ -40,7 +40,7 @@
    
     <!--Clear previous floats-->
     <div id="clear-previous-floats">
-        <!--Empty div to stop div's below from wrapping up into the menu bar-->
+        <!--Empty div here to stop div's below from wrapping up into the menu bar-->
     </div>
 
  <!--  
@@ -54,10 +54,8 @@
         <!--Left-->
         <div id="left-details">
             <h2>Contact Details</h2>
-            <br>
-            <br>
             <h3 id="uppercase">Address</h3>
-            <h3>Local Gym,</h3>
+            <h3>Gym Website,</h3>
             <h3>15 Main Street,</h3>
             <h3>Limerick</h3>
             <br>
@@ -65,17 +63,13 @@
             <h3 id="uppercase">Email</h3>
             <h3>gym-website@hotmail.com</h3>
             <br>
+            <br>
             <h3 id="uppercase">Phone</h3>
             <h3>061-123456</h3>
         </div>
         
         <!--Middle-->
-        <div id="middle-map"><h2>Our Location</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d54759.176278212864!2d-8.641260592900117!3d52.65931730541745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slimerick%20city%20centre!5e0!3m2!1sen!2sie!4v1613917383133!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-
-        <!--Right-->
-        <div id="right-form"><h2>Contact Form</h2>
+        <div id="middle-form"><h2>Contact Form</h2>
         
             <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
                 <label for="fname"></label>
@@ -90,39 +84,58 @@
                 <label for="message"></label>
                 <input type="text" id="message" name="user_message" placeholder="Message" required>
 
-                <input type="submit">
+                <input id="submit" type="submit">
 
             </form>
         
         </div>
 
+        <!--Right-->    
+        <div id="right-map"><h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d54759.176278212864!2d-8.641260592900117!3d52.65931730541745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slimerick%20city%20centre!5e0!3m2!1sen!2sie!4v1613917383133!5m2!1sen!2sie" width=100% height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
     </section>
 
-    <!--Clear previous floats-->
+    <!--Clear previous floats
      <div id="clear-previous-floats">
-        <!--Empty div to stop div's below from wrapping up into the menu bar-->
+        Empty div here to stop div's below from wrapping up
     </div>
+    -->
 
     <!--Footer-->
     <footer>
-        footer - 3 sections
-        <div>
+        <section id="top">
+        <div id="footer-left">
             <p>
-                <h3>Local Gym,</h3>
+                <h3>Gym Website,</h3>
                 <h3>15 Main Street,</h3>
                 <h3>Limerick</h3>
             </p>
         </div>
-        <div>
+        <div id="footer-middle">
             <p>
-                <h3>local-gym@hotmail.com</h3>
+                <h3>gym-website@hotmail.com</h3>
             </p>
         </div>
-        <div>
+        <div id="footer-right">
             <p>
                 <h3>061-123456</h3>
             </p>
         </div>
+        </section>
+
+        <section id="bottom">
+            <ul id="social-media">
+                <!-- Free Fontawesome icons -->
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+
+        </section>
+
     </footer>
+    
+
 </body>
 </html>
