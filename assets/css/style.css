@@ -13,10 +13,11 @@
 
 body {
     font-family: Lato; /* Credit: Code Institute Tutorial */
-    color: #444444; /* Dark colour gives a stronger contrast */
+    color: #555555; 
+    /*
     margin-left: 1%;
     margin-right: 1%;
-    height: 900px;
+    */
 }
 
 /* Credit: Code Institute Tutorial */
@@ -25,7 +26,7 @@ h2 {
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #555555; /*Darker than Charcoal */
+    color: #555555; 
 }
 
 
@@ -44,20 +45,28 @@ h2 {
 #icon {
    float: left;  /* Have 2 icons Float left keeps them together */
    font-size: 280%;
-   color: #555555; /*Darker than Charcoal */
+   color: #555555; 
    margin-left: 30px;
 }
 
-/* Menu items floated to the right from the start of the list so the list ends up in reverse order */
-#menu li {
+
+#menu {
    float: right;
-   margin-right: 30px; /* margin for each menu item */
+   margin-left: 30px;
 }
+
+
+#menu li {
+    float: left; 
+    margin-right: 30px; /* margin for each menu item */
+}
+
+
+
 
 header {
  border-bottom: 10px;
 }
-
 
 
 #icon, #menu {
@@ -65,20 +74,54 @@ header {
     text-decoration: none;
 }
 
+
+@media screen and (max-width: 1396px){
+    /* With decreasing screen width menu is going under the icon,
+    then up beside the ICON an then under it again - fix here */
+     #menu {
+        float: left;
+        clear: left; /* Credit: Code Institute Tutorial */
+    }  
+}
+
+
+
+@media screen and (max-width: 943px){
+
+    #menu li {
+        float: left;
+        clear: left;   /* Credit: Code Institute Tutorial */
+        line-height: 25px; /* only menu items centered inside the same height of 25px */
+    }
+    /* Float menu to the left on a mobile */
+    #menu {
+    float: left;
+    }
+}
+
+
+
 /* Credit: Code Institute Tutorial */
 #menu a {
     text-decoration: none; /* no underline */
     color: inherit; /*inherit from closest parent with color set */
 }
 
+
+
 #menu a:hover {
-   color: #941111;/
+   color: #941111;
 }
 
 
 .active {
     border-bottom: 1px solid #777777; /* highlight active page */
 }
+
+
+
+
+/*---------------- Clear floats ------------*/
 
 #clear-previous-floats {
     clear: both;  
@@ -102,7 +145,6 @@ header {
 
 /* Credit: Code Institute Tutorial */
 #contact-sections {
-    height: 700px;
     width: 100%;
 }
 
@@ -115,7 +157,6 @@ header {
     padding-top: 30px;
     width:33%;
     float: left;
-    background-color: red;
 }
 
 
@@ -125,7 +166,6 @@ header {
     padding-top: 30px;
     width:33%;
     float: right;
-    background-color: orange;
 }
 
 
@@ -134,7 +174,6 @@ header {
     padding-top: 30px;
     width: 34%;
     margin: 0 auto;
-    background-color: green;
 }
 
 #uppercase {
@@ -155,6 +194,7 @@ input {
 
 #contact-sections h2, h3 {
     padding-left: 30px; 
+    font-size: 150%;
 }
 
 
@@ -171,40 +211,57 @@ div form input {
     border-radius: 4px;
 }
 
+/* message box */
 div form #message {
     height: 200px;
 }
 
 
 input[type=submit] { /* Credit: Code Institute Tutorial */
-    width: 200px;
+    width: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-div #submit {
-    float: right;
+div form #submit {
+    float: left;
+    background-color: #fafafa;
 }
+
+div form ::placeholder {
+    font-size: 100%;
+}
+
+
+/* Mobile */
+ @media screen and (max-width: 943px){
+    #contact-sections div {
+    clear: left;   /* Credit: Code Institute Tutorial */
+    padding-top: 0px;
+    width:100%;
+    float: left;
+    }
+ }   
 
 
 
 /*--------------------Footer------------------*/
 
-body footer {  
-    height: 75px;
-}
-
-
-body footer #top { 
-    width: 98%;
+body footer {
     position: fixed;
     bottom: 0;
+    width: 100%;
+    height:100px; /* 3 rows of text with one ICON row, 4 X 25px = 100px.*/
+    background-color:#555555; 
+    color: #fafafa;
+}
+
+body footer #top { 
+    width: 100%;
 }
 
 body footer #bottom { 
-    width: 98%;
-    position: fixed;
-    bottom: 0;
+    width: 100%;
 }
 
 
@@ -225,42 +282,122 @@ body footer #bottom {
     margin: 0 auto;
 }
 
-footer #top div {
-    display: inline-block;
+
+footer div h3 {
+   background-color:#555555;  
 }
 
+
+footer section li {
+   background-color:#555555;  
+}
+
+footer section ul {
+   background-color:#555555;  
+}
+
+footer #bottom ul {
+    margin-right: 30px;
+}
+/* Footer Icons */
 
 footer #social-media {
     float: right; 
+    clear: left;   /* Credit: Code Institute Tutorial */
 }
-
- 
 
  
 #social-media > li {
     display: inline;
 }
-
-/* 
-
-footer #social-media {
-    clear: both;
-    list-style-type: none; 
-  float: right;  
-
-
-
-}
-
-
-footer #bottom li {
-       
+ 
+#social-media  li i {
+    color: #fafafa;
+    background-color:#555555;  
 }
 
 
 
 
-footer div p {
- /*  line-height: 75px;  
+
+
+/* Desktop */
+footer #top div {
+    display: inline-block;
 }
- */
+
+
+
+/* Mobile */
+ @media screen and (max-width: 943px){
+    body footer {
+        height:150px; /* 5 rows of text with one ICON row, 6 x 25px = 150px */
+    }
+    /* containers now float to the left */
+    footer #top div {
+        clear: left;   /* Credit: Code Institute Tutorial */
+        float: left;
+    }   
+    /* footer-right must now float to the left */
+    #top #footer-right {
+        float: left;
+    } 
+    /* Text can now occupy full width of 98% */ 
+    #top #footer-left {
+    width: 98%;
+    }
+    #top #footer-middle {
+    width: 98%;
+    }
+    #top #footer-right {
+    width: 98%;
+    }
+ }
+
+/*--------------------Table------------------*/
+
+
+
+
+/*   Desktop  */
+
+/* Hide mobile */
+.mobile {
+    color: #fafafa;
+    column-width: 0px;  /* not working */
+}
+
+
+
+.desktop {
+    color: black;
+}
+
+
+div > table{
+    float: left;
+}
+
+
+
+/* Mobile */
+
+
+
+
+@media screen and (max-width: 943px){
+
+    .mobile {
+        color:black
+    }
+
+    .desktop {
+        color: #fafafa;
+    }
+
+    div > table{
+        float: none;
+    }
+
+
+}

@@ -92,6 +92,12 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - This project used free **Fontawesome** icons.
     - The icons were, the child icon, facebook icon and instagram icon.
 
+
+
+
+
+
+
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -180,6 +186,11 @@ Start Footer Section (commit message)
 - Move map section to the right. This supports one background image behind contact details and contact form.
 - Align Footer with Contact section above.
 
+Start classes.html (commit message)
+24nd February 2021
+- Styling of index.html with contact.html code nearly completed.
+- Started timetable in classes.html.
+
 
 Challenges
 
@@ -225,6 +236,7 @@ The footer sections seemed to getting set as a percentage of the full page width
 Changed left and right body margin to 1%.
 Changed footer width to 98%.
 This is a workaround. With more time this can be debugged more.
+Later on the body margins were removed so that the footer background could be the full width of the page.
 
 Note
 The Home page has "just" a hero image in the center.
@@ -237,9 +249,16 @@ The footer has two sections top and bottom.
 The "window" was being applied to the top section only.
 The fix was to set the bottom section fixed to the bottom and the top section set relative to it.   
 
-
-
-
+Menu items
+When floating the menu items to the left they appear in reverse order with home on the bottom.
+This is due to the previous workaround where they are listed in reverse order in the HTML.
+Google search gives:
+Float:right reverses order of spans - Stack Overflowstackoverflow.com › questions › floatright-reverses-ord...
+16 answers
+28 Mar 2012 — The general solution to this problem is either to reverse the order of the right floated elements in the HTML, or wrap them in a containing element and float that to the right instead. Yes, this can be done with your exact markup.
+Use solution of wrapping in a containing element.
+Menu list items are no longer floeted to the right.
+Menu items are inside menu id which is now floated to the right.
 
 
 
@@ -249,6 +268,7 @@ TBD's
 - Change icon?
 - Fix reverse order menu so index.html does not need to be reversed.
 - Add blank line.
+- Remove underscore from Social media icons.
 
 
 
