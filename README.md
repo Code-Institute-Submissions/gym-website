@@ -92,7 +92,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - This project used free **Fontawesome** icons.
     - The icons were, the child icon, facebook icon and instagram icon.
 
-
+- [CSS-TRICKS](https://css-tricks.com/complete-guide-table-element)
+    - This project used code from **CSS-TRICKS** to support debug by enabling a table border.
+    - The border can not be used in the final render.
 
 
 
@@ -191,6 +193,11 @@ Start classes.html (commit message)
 - Styling of index.html with contact.html code nearly completed.
 - Started timetable in classes.html.
 
+Add Classes Table (commit message)
+24nd February 2021
+- Added table for classes.
+
+
 
 Challenges
 
@@ -260,7 +267,13 @@ Use solution of wrapping in a containing element.
 Menu list items are no longer floeted to the right.
 Menu items are inside menu id which is now floated to the right.
 
-
+Classes Table
+Went down multiple avenues until the classes table was styled.
+It needs the headings at the top and side to be highlighted.
+It also needs a box around the table.
+A major challenge was getting the column widths to work out as intended.
+The solution was to make sure that all the columns had the same styles when inspected on a mobile device.
+Vieving the collapsed columns with red text supported the debug. 
 
 TBD's
 - Fix pdf links in MD above.

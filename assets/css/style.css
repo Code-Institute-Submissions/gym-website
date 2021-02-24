@@ -352,52 +352,93 @@ footer #top div {
     #top #footer-right {
     width: 98%;
     }
- }
+}
 
 /*--------------------Table------------------*/
 
+/* Credit: https://css-tricks.com/complete-guide-table-element/ */
+table {
+    border-collapse: collapse; /* Collapse double bars into one bar */
+}
 
-
-
-/*   Desktop  */
-
-/* Hide mobile */
-.mobile {
-    color: #fafafa;
-    column-width: 0px;  /* not working */
+/* Credit: https://css-tricks.com/complete-guide-table-element/ */
+td, th {
+    /* Border and padding are useful for debug
+    border: 1px solid #999;
+    padding: 0.5rem;  */
+    text-align: left;
 }
 
 
 
-.desktop {
-    color: black;
+/* Default styling */
+th, td {
+    height: 30px;
+    font-size: 150%;
+    color: #555555; 
 }
-
 
 div > table{
     float: left;
 }
 
 
+/* Desktop Visible */
 
-/* Mobile */
+.desktop {
+    column-width: 150px;
+    font-size: 150%;
+    color: #555555; 
+}
 
+/* On Monday the desktop the time column needs to be slightly wider so that the spacing looks nicer */
+.m-time {
+    column-width: 250px;
+}
+
+/* Hide mobile */
+.mobile, .time {
+    column-width: 0px;
+    font-size: 0%;
+    color: #fafafa /* Change text to match the background, i.e. hidden */  
+}
+
+
+
+/* Arrange div's in a row */
+div > table{
+    float: left;
+}
 
 
 
 @media screen and (max-width: 943px){
 
     .mobile {
-        color:black
+        column-width: 100px;
+        font-size: 150%;
+        color: #555555; 
+    }
+
+    .m-time, .time {
+        column-width: 300px;
+        font-size: 150%;
+        color: #555555; 
     }
 
     .desktop {
-        color: #fafafa;
+        column-width: 0px;
+        font-size: 0%;
+        color: #fafafa  /* Change text to match the background, i.e. hidden */ 
     }
 
+
+
+    /* Arrange div's in a column */
     div > table{
         float: none;
     }
 
+} 
 
-}
+ 
