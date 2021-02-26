@@ -61,11 +61,9 @@ h2 {
     margin-right: 30px; /* margin for each menu item */
 }
 
-
-
-
 header {
- border-bottom: 10px;
+  height: 80px;
+  border-bottom: 1px solid #555555; 
 }
 
 
@@ -82,6 +80,10 @@ header {
         float: left;
         clear: left; /* Credit: Code Institute Tutorial */
     }  
+
+    header {
+    height: 150px;
+    }
 }
 
 
@@ -96,6 +98,14 @@ header {
     /* Float menu to the left on a mobile */
     #menu {
     float: left;
+    }
+
+    #icon {
+    font-size: 140%;
+    }
+
+    header {
+    height: 190px;
     }
 }
 
@@ -251,80 +261,101 @@ body footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height:100px; /* 3 rows of text with one ICON row, 4 X 25px = 100px.*/
+    height:175px; /* 3 rows of text, 3 X 25px = 75px.*/
     background-color:#555555; 
     color: #fafafa;
 }
 
-body footer #top { 
-    width: 100%;
-}
-
-body footer #bottom { 
-    width: 100%;
-}
 
 
 
-#top #footer-left {
+
+footer #footer-left {
     width: 33%;
     float: left;
 }
 
-#top #footer-right {
+footer #footer-right {
     width: 33%;
     float: right;
 }
 
 
-#top #footer-middle {
+footer #footer-middle {
     width: 34%;
     margin: 0 auto;
 }
 
+footer div {
+    display: inline-block;
+}
+
+
+footer {
+   background-color:#555555;  
+}
+
+footer div {
+   background-color:#555555;  
+}
 
 footer div h3 {
    background-color:#555555;  
 }
 
-
-footer section li {
+footer div ul {
    background-color:#555555;  
 }
 
-footer section ul {
-   background-color:#555555;  
+
+
+
+
+
+footer #footer-right #left-number {
+    width: 50%;
+    float: left;
 }
 
-footer #bottom ul {
-    margin-right: 30px;
+footer #footer-right #right-sm {
+    width: 50%;
+    float: right;
+    margin-top: 10px;
 }
+
+
+
+footer #footer-right div {
+    display: inline-block;
+}
+
+footer > div {
+    font-size: 400%;
+}
+
+
 /* Footer Icons */
 
-footer #social-media {
-    float: right; 
-    clear: left;   /* Credit: Code Institute Tutorial */
-}
 
  
 #social-media > li {
     display: inline;
 }
  
+
 #social-media  li i {
     color: #fafafa;
-    background-color:#555555;  
+    background-color: #555555;
 }
 
 
-
-
-
-
-/* Desktop */
-footer #top div {
-    display: inline-block;
+#social-media a {
+  /*  text-decoration: none; 
+    color: #555555; */
+    background-color: #555555; 
 }
+
+
 
 
 
@@ -363,9 +394,9 @@ table {
 
 /* Credit: https://css-tricks.com/complete-guide-table-element/ */
 td, th {
-    /* Border and padding are useful for debug
+    /* Border and padding are useful for debug */
     border: 1px solid #999;
-    padding: 0.5rem;  */
+    padding: 0.5rem;  
     text-align: left;
 }
 
@@ -442,3 +473,34 @@ div > table{
 } 
 
  
+
+/*--------------------Gallery------------------*/
+
+/* Credit. Copy + Paste from Code Institute Love Running lesson */
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photo img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 943px){
+
+    #photo{
+        column-count: 3;
+    }
+
+}
+
+@media screen and (max-width: 943px){
+
+    #photo{
+        column-count: 3;
+    }
+
+}

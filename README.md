@@ -146,31 +146,31 @@ In addition, if it is not obvious, you should also describe how to run your code
 The format of the planet health limerick site has some similarities to Code Institute Student Mini Project with Bootstrap 4.
 - The format of this README file came from the Code Institute.
 - The template for this project is the Code Institute student template for Gitpod.
+- The Gallery was 100% copy and paste from Code Institute Love Running Lesson.
 
 
 ### Revision history
-Initial commit
-9th February 2021
+Initial commit (commit message)
+- 9th February 2021
 - Created GitHub project from Code Institute template.
 - Copied in GitHub this README file from Code Institute Example README.md template.
 - Opened GitHub project in GitPod.
 - Started README Acknowledgements.
 - Created project folder structure with index.html and style.css files.
 
-### Revision history
 Add Wireframes (commit message)
-14th February 2021
+- 14th February 2021
 - Created Wireframes with Balsamiq Wireframes.
 - Added to wireframes directory in assets directory.
 - Updated README UX section.
 
 Add index.html Menu (commit message)
-17th February 2021
+- 17th February 2021
  - Added menu items.
  - Added footer items.
 
 Start Middle section (commit message)
-20th February 2021
+- 20th February 2021
 - Mid section of home (hero image) and contact us (contact left, middle and right) both added to index.html.
 - Hero image section is commented out when contact us is being worked on etc.
 - Supports working on one HTML file until the very end when index.html will be saved as other html files.
@@ -178,102 +178,122 @@ Start Middle section (commit message)
 - Started Contact section.
 
 Start Contact section (commit message)
-22nd February 2021
+- 22nd February 2021
 - Add contact details on L.H.S.
 - Add map in middle.
 - Add form on R.H.S. Needs to be styled.
 
 Start Footer Section (commit message)
-22nd February 2021
+- 22nd February 2021
 - Move map section to the right. This supports one background image behind contact details and contact form.
 - Align Footer with Contact section above.
 
 Start classes.html (commit message)
-24nd February 2021
+- 24nd February 2021
 - Styling of index.html with contact.html code nearly completed.
 - Started timetable in classes.html.
 
 Add Classes Table (commit message)
-24nd February 2021
+- 24nd February 2021
 - Added table for classes.
 
-
+Style Mods
+- 26th February 2021
+- Added border under header.
+- Reduced height of Icon and GYM WEBSITE for Iphone X.
+- Moved social media icons from fourth div to right of 3rd div.
+- Removed off white icon background.
 
 Challenges
 
 index.html
-Lato font weight of 300 seemed difficult to see on the desktop.
-Looks better darkened with font weight of 500 but then cannot go darker with a hover.
-The underscore is used to highlight the active page so experimenting with not using this feature twice by using for hover too.
-Changing font to bold worked ok with a 300 font weight but with a font weight of 500 the letters got bigger and moved the menu items 
-on the left of the hover even more left. Tried increasing the letter spacing to fix this menu "wobble" but this did not work.
-Using h6 made the text clear but bold did not highlight a hover.
-Changing colour to red works ok.
-
+- Lato font weight of 300 seemed difficult to see on the desktop.
+- Looks better darkened with font weight of 500 but then cannot go darker with a hover.
+- The underscore is used to highlight the active page so experimenting with not using this feature twice by using for hover too.
+- Changing font to bold worked ok with a 300 font weight but with a font weight of 500 the letters got bigger and moved the menu items 
+on the left of the hover even more left.
+- Tried increasing the letter spacing to fix this menu "wobble" but this did not work.
+- Using h6 made the text clear but bold did not highlight a hover.
+- Changing colour to red works ok.
 
 Menu Bar and Contact sections.
-Contact section div's were moving up between icon and menu items.
-Tried inline on every element in both menu bar and contact section.
-Fixed with a clear of both previous floats.
+- Contact section div's were moving up between icon and menu items.
+- Tried inline on every element in both menu bar and contact section.
+- Fixed with a clear of both previous floats.
 
 Contact sections
-Right section was below other two.
-use contact-sections > div{ display: inline-block; } to fix. As used by Blue and Orange boxes during lessons.
+- Right section was below other two.
+- use contact-sections > div{ display: inline-block; } to fix. As used by Blue and Orange boxes during lessons.
 
 Blank Line
-Was expecting <h3> </h3> to give a blank line of text with a carriage return.
-Block element <p> </p> also did not give a blank line with a carriage return.
-Blank space is ignored by HTML. White text on a white background seems too complicated.
-Coders Coffeehouse lesson used <br> which was a carriage return in the middle of an address.
+- Was expecting <h3> </h3> to give a blank line of text with a carriage return.
+- Block element <p> </p> also did not give a blank line with a carriage return.
+- Blank space is ignored by HTML. White text on a white background seems too complicated.
+- Coders Coffeehouse lesson used <br> which was a carriage return in the middle of an address.
 
 Gap
-Gap between middle and right sections. Inspecting code did not highlight any stray padding.
-Gap was due to 1% left over from giving 33% to each of the three sections.
-Changed mid section to 34% wide.
+- Gap between middle and right sections. Inspecting code did not highlight any stray padding.
+- Gap was due to 1% left over from giving 33% to each of the three sections.
+- Changed mid section to 34% wide.
 
 Facebook and Instagram Icons not visible on the right of the screen.
-Contact section background set to Red, Green and Orange during page development.
-Body set to left and right 10px margin.
-Footer is inside body.
-Footer had margin on left but none on right.
-Looking at Google Inspect Element.
-The footer was starting on the left but was overflowing to the right.
-The footer left section was also to the right of the contact details section above.
-The footer sections seemed to getting set as a percentage of the full page width not the page width less the margins.
-Changed left and right body margin to 1%.
-Changed footer width to 98%.
-This is a workaround. With more time this can be debugged more.
-Later on the body margins were removed so that the footer background could be the full width of the page.
+- Contact section background set to Red, Green and Orange during page development.
+- Body set to left and right 10px margin.
+- Footer is inside body.
+- Footer had margin on left but none on right.
+- Looking at Google Inspect Element.
+- The footer was starting on the left but was overflowing to the right.
+- The footer left section was also to the right of the contact details section above.
+- The footer sections seemed to getting set as a percentage of the full page width not the page width less the margins.
+- Changed left and right body margin to 1%.
+- Changed footer width to 98%.
+- This is a workaround. With more time this can be debugged more.
+- Later on the body margins were removed so that the footer background could be the full width of the page.
 
 Note
-The Home page has "just" a hero image in the center.
-The Contact page had 3 sections across the page, the same as the footer.
-This is why the contact page (labelled as index.html) was debugged first.
+- The Home page has "just" a hero image in the center.
+- The Contact page had 3 sections across the page, the same as the footer.
+- This is why the contact page (labelled as index.html) was debugged first.
 
 Social Media Icons
-The social media icons in the footer were appearing above the footer.
-The footer has two sections top and bottom.
-The "window" was being applied to the top section only.
-The fix was to set the bottom section fixed to the bottom and the top section set relative to it.   
+- The social media icons in the footer were appearing above the footer.
+- The footer has two sections top and bottom.
+- The "window" was being applied to the top section only.
+- The fix was to set the bottom section fixed to the bottom and the top section set relative to it.   
 
 Menu items
-When floating the menu items to the left they appear in reverse order with home on the bottom.
-This is due to the previous workaround where they are listed in reverse order in the HTML.
-Google search gives:
-Float:right reverses order of spans - Stack Overflowstackoverflow.com › questions › floatright-reverses-ord...
-16 answers
-28 Mar 2012 — The general solution to this problem is either to reverse the order of the right floated elements in the HTML, or wrap them in a containing element and float that to the right instead. Yes, this can be done with your exact markup.
-Use solution of wrapping in a containing element.
-Menu list items are no longer floeted to the right.
-Menu items are inside menu id which is now floated to the right.
+- When floating the menu items to the left they appear in reverse order with home on the bottom.
+- This is due to the previous workaround where they are listed in reverse order in the HTML.
+- Google search gives:
+- Float:right reverses order of spans - Stack Overflowstackoverflow.com › questions › floatright-reverses-ord...
+- 16 answers
+- 28 Mar 2012 — The general solution to this problem is either to reverse the order of the right floated elements in the HTML, or wrap them in a containing element and float that to the right instead. Yes, this can be done with your exact markup.
+- Use solution of wrapping in a containing element.
+- Menu list items are no longer floeted to the right.
+- Menu items are inside menu id which is now floated to the right.
 
 Classes Table
-Went down multiple avenues until the classes table was styled.
-It needs the headings at the top and side to be highlighted.
-It also needs a box around the table.
-A major challenge was getting the column widths to work out as intended.
-The solution was to make sure that all the columns had the same styles when inspected on a mobile device.
-Vieving the collapsed columns with red text supported the debug. 
+- Went down multiple avenues until the classes table was styled.
+- It needs the headings at the top and side to be highlighted.
+- It also needs a box around the table.
+- A major challenge was getting the column widths to work out as intended.
+- The solution was to make sure that all the columns had the same styles when inspected on a mobile device.
+- Vieving the collapsed columns with red text supported the debug.
+
+Header Height
+- Could not get header height to auto scale with its contents.
+- Used fixed heights instead.
+
+Footer Icons
+- Took a good hour to display the icons on their own with respect to the correct background.
+- The Off white icon had an off white bar on the top and the bottom.
+- Used google inspect to figure out that the icon had the correct background but that the anchor was off white.
+- It was a challenge to target the anchor with CSS.
+- For debug the icon was removed and replaced with text.
+- A simple specificity seemed to work best (#social-media a {background-color: #555555; }) and (#social-media a {text-decoration: none; }) 
+- With working the font awesome Icons were put back into the HTML.
+
+
 
 TBD's
 - Fix pdf links in MD above.
