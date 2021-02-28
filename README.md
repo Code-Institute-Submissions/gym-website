@@ -11,11 +11,11 @@ There are also those who discuss equipment avaliable at a gym. The top left gall
 ## UX
  
 Most Gym users are researching classes and availability during a busy day at work. They want instant access to information with little clicking and scrolling.
-This website has a clear Classes page with a Contact Us page. Most Gym Website users are already attending a gym and just want to know some core details.
+This website has a clear Classes page with a Contact Us page. Most Gym Website users are already attending a gym and just want to know some basic details.
 
 - The site's users are gym members and potential members, who want to know more about the gym and its procedures.
 - The gym is interested in attracting and retaining members.
-- As a Gym user 99% of the time I just want to know what time the classes were on and which classes they are.
+- As a Gym user 99% of the time I just want to know what time the classes were on and which classes are available.
 - As a Gym provider the gallery section provides welcoming images of the Gym.
 - The website promotes the image of a professional well run Gym.
 - The Contact Us section allows users to contact the gym as regards membership or class availability.
@@ -40,7 +40,7 @@ The timetable on the Tablet will likely be a squeezed version of the Desktop tim
 A squashed and wrapped Desktop timetable will not work on the Phone.
 The Phone wireframe shows two Desktop columns, one for the Times and one for the Days of the week.
 This however does not look well.
-The Phone will need a format of it's owm with the Day of the week followed by columns with headings of Times and Classes.
+The Phone will need a format of it's own with the Day of the week followed by columns with headings of Times and Classes.
 Coding this will be a challenge and will likely require a library perhaps Bootstrap4.
 The timetable will need to be scrolled up/down.
 There is a gap in the footer where the table is visable.
@@ -64,9 +64,9 @@ The Desktop may look nicer if the images are in thirds, i.e. three columns inste
 ### Existing Features
 - Feature 1 - The landing page is a simple page with a Hero Image and the relevant Gym Links.
 - Feature 2 - The Classes page allows users to see when the classes are scheduled.
-- Feature 2 - The Contact Us gives contact details with a map to help users to locate the Gym.
-- Feature 3 - The Contact Us page also allows users to input their detail and contact the Gym for feedback on their queries.
-- Feature 4 - The Gallery page has images of the Gym to attract new members.
+- Feature 3 - The Contact Us gives contact details with a map to help users to locate the Gym.
+- Feature 4 - The Contact Us page also allows users to input their detail and contact the Gym for feedback on their queries.
+- Feature 5 - The Gallery page has images of the Gym to attract new members.
 
 
 ### Features Left to Implement
@@ -115,11 +115,12 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Validating
+Validation results.
 - [style.css](assets/code_validation/W3C_CSS_Validator_results_for_style_css_CSS_level_3_+_SVG.pdf)
 - [index.html](assets/code_validation/Showing_results_for_uploaded_file_index_html_Nu_Html_Checker.pdf)
 - [classes.html](assets/code_validation/Showing_results_for_uploaded_file_classes_html_Nu_Html_Checker.pdf)
 - [gallery.html](assets/code_validation/Showing_results_for_uploaded_file_gallery_html_Nu_Html_Checker.pdf)
+- No need for a heading on a gallery page.
 - [contact.html](assets/code_validation/Showing_results_for_uploaded_file_contact_html_Nu_Html_Checker.pdf)
 
 
@@ -149,101 +150,16 @@ https://stock.adobe.com/ie/
 ### Acknowledgements
 
 - Inspiration for this project was received from https://planethealthlimerick.ie/ .
-The format of the planet health limerick site has some similarities to Code Institute Student Mini Project with Bootstrap 4.
+- The format of the planet health limerick site has some similarities to Code Institute Student Mini Project with Bootstrap 4.
 - The format of this README file came from the Code Institute.
 - The template for this project is the Code Institute student template for Gitpod.
 - The Gallery was 100% copy and paste from Code Institute Love Running Lesson.
-
-        <!-- alt text is contained in aria-label = "  " -->
-        <!-- 
-        Credit:
-        https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html -->
-
-
-### Revision history
-
-Commit Messages as detailed below.
-
-Initial commit
-- 9th February 2021
-- Created GitHub project from Code Institute template.
-- Copied (in GitHub) this README file from Code Institute Example README.md template.
-- Opened GitHub project in GitPod.
-- Started README Acknowledgements.
-- Created project folder structure with index.html and style.css files.
-
-Add Wireframes
-- 14th February 2021
-- Created Wireframes with Balsamiq Wireframes.
-- Added to wireframes directory in assets directory.
-- Updated README UX section.
-
-Add index.html Menu
-- 17th February 2021
- - Added menu items.
- - Added footer items.
-
-Start Middle section
-- 20th February 2021
-- Mid section of home (hero image) and contact us (contact left, middle and right) both added to index.html.
-- Hero image section is commented out when contact us is being worked on etc.
-- Supports working on one HTML file until the very end when index.html will be saved as other html files.
-- Insert temporary hero image from Love Running lesson.
-- Started Contact section.
-
-Start Contact section
-- 22nd February 2021
-- Add contact details on L.H.S.
-- Add map in middle.
-- Add form on R.H.S. Needs to be styled.
-
-Start Footer Section
-- 22nd February 2021
-- Move map section to the right. This supports one background image behind contact details and contact form if needed.
-- Align Footer with Contact section above.
-
-Start classes.html
-- 24nd February 2021
-- Styling of index.html with contact.html code nearly completed.
-- Started timetable in classes.html.
-
-Add Classes Table
-- 24nd February 2021
-- Added table for classes.
-
-Style Mods
-- 26th February 2021
-- Added border under header.
-- Reduced height of Icon and GYM WEBSITE for Iphone X.
-- Moved social media icons from fourth div to right of 3rd div.
-- Removed off white icon background.
-
-Configure Pages
- - 28th February 2021
- - Completed index.html page.
- - Copied index.html to contact.html. Note that the index.html page has been used to debug the "Contact Us" page.
- - Setup index.html as landing page with hero image.
- - Copied index.html for gallery.html and classes.html.
- - Changed classes page to use bootstrap table.
- - Added images to images folder.
- - Tweaked Gym Website look and feel based on tutor feedback.
-
-Updated Readme
-- 28th February 2021
-- Updated Readme
-
-Updated Readme 2
-- 28th February 2021
-- Updated Readme to include a validation file and see what it looks like in Github.
-
-Updated Readme 3
-- 28th February 2021
-- Updated Readme to include a reformatted validation file and see what it looks like in Github.
+- The hero image alt text solution came from https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
 
 
 
+### Challenges
 
-Challenges
 
 index.html
 - Lato font weight of 300 seemed difficult to see on the desktop.
@@ -255,50 +171,60 @@ on the left of the hover even more left.
 - Using h6 made the text clear but bold did not highlight a hover.
 - Changing colour to red works ok.
 
+
 Menu Bar and Contact sections.
 - Contact section div's were moving up between icon and menu items.
 - Tried inline on every element in both menu bar and contact section.
 - Fixed with a clear of both previous floats.
 
+
 Contact sections
 - Right section was below other two.
 - use contact-sections > div{ display: inline-block; } to fix. As used by Blue and Orange boxes during lessons.
 
+
 Blank Line
-- Was expecting <h3> </h3> to give a blank line of text with a carriage return.
-- Block element <p> </p> also did not give a blank line with a carriage return.
+- Was expecting "h3" to give a blank line of text with a carriage return.
+- Block element "p" also did not give a blank line with a carriage return.
 - Blank space is ignored by HTML. White text on a white background seems too complicated.
-- Coders Coffeehouse lesson used <br> which was a carriage return in the middle of an address.
+- Coders Coffeehouse lesson used "br" which was a carriage return in the middle of an address.
+
 
 Gap
-- Gap between middle and right sections. Inspecting code did not highlight any stray padding.
+- Gap between middle and right contact sections. Inspecting code did not highlight any stray padding.
 - Gap was due to 1% left over from giving 33% to each of the three sections.
 - Changed mid section to 34% wide.
 
-Facebook and Instagram Icons not visible on the right of the screen.
+
+Facebook and Instagram Icons
+- Facebook and Instagram Icons not visible on the right of the screen.
 - Contact section background set to Red, Green and Orange during page development.
 - Body set to left and right 10px margin.
 - Footer is inside body.
 - Footer had margin on left but none on right.
 - Looking at Google Inspect Element.
 - The footer was starting on the left but was overflowing to the right.
-- The footer left section was also to the right of the contact details section above.
+- The footer left section was also to the right, i.e. not aligning with the contact details section above.
 - The footer sections seemed to getting set as a percentage of the full page width not the page width less the margins.
 - Changed left and right body margin to 1%.
 - Changed footer width to 98%.
 - This is a workaround. With more time this can be debugged more.
 - Later on the body margins were removed so that the footer background could be the full width of the page.
+- In hindsight this probably ties in with "Margins" below.
+
 
 Note
 - The Home page has "just" a hero image in the center.
 - The Contact page had 3 sections across the page, the same as the footer.
 - This is why the contact page (labelled as index.html) was debugged first.
 
+
 Social Media Icons
 - The social media icons in the footer were appearing above the footer.
 - The footer has two sections top and bottom.
 - The "window" was being applied to the top section only.
 - The fix was to set the bottom section fixed to the bottom and the top section set relative to it.   
+
 
 Menu items
 - When floating the menu items to the left they appear in reverse order with home on the bottom.
@@ -311,17 +237,21 @@ Menu items
 - Menu list items are no longer floeted to the right.
 - Menu items are inside menu id which is now floated to the right.
 
+
 Classes Table
 - Went down multiple avenues until the classes table was styled.
 - It needs the headings at the top and side to be highlighted.
 - It also needs a box around the table.
 - A major challenge was getting the column widths to work out as intended.
 - The solution was to make sure that all the columns had the same styles when inspected on a mobile device.
-- Vieving the collapsed columns with red text supported the debug.
+- Viewing the collapsed columns with red text supported the debug.
+- But in the end a Bootstrap solutipn was used.
+
 
 Header Height
 - Could not get header height to auto scale with its contents.
 - Used fixed heights instead.
+
 
 Footer Icons
 - Took a good hour to display the icons on their own with respect to the correct background.
@@ -332,6 +262,7 @@ Footer Icons
 - A simple specificity seemed to work best (#social-media a {background-color: #555555; }) and (#social-media a {text-decoration: none; }) 
 - With off white background the font awesome Icons were put back into the HTML.
 
+
 Margins
 - Set the header and footer heights to fit the height of their contents.
 - One would expect containers to contain what they are wrapping with an auto command or something like that and not default to a zero height.
@@ -339,36 +270,128 @@ Margins
 - One would expect padding to squeeze the contents of a container and not to make the container bigger.
 - But adding up the #message width of 88% with two paddings of 3% each with two margins of 3% each works out = 100%.
 
-
-
-        <!-- alt text is contained in aria-label = "  " -->
-        <!-- 
-        Credit:
-        https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html -->
+Alt text
+- It was a challenge to include the Hero Image as a background with the URL listed in the HTML not CSS.
+- This was needed to support "alt" text as is done with the gallery images.
+- A solution was found online.
+- [blog](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
 
 
 Classes table
-Added bootstrap before local styling in classes page but header and footer styling were adjusted on the classes page w.r.t. other pages.
-Used Google inspect on header.
-Added fontweight of 600 to h2 to force h2 fontweight.
-Used Google inspect on footer.
-index.html footer is 85px high whereas classes.html footer is 65px high.
-Put bootstrap on every html page.
-I guess the learning is to add boorstrap earlier in the development.
+- Added bootstrap before local styling in classes page but header and footer styling were adjusted on the classes page w.r.t. other pages.
+- Used Google inspect on header.
+- Added fontweight of 600 to h2 to force h2 fontweight.
+- Used Google inspect on footer.
+- index.html footer is 105px high whereas classes.html footer is 65px high.
+- Footer was set to 85px in CSS.
+- 85px + 10px + 10px = 105px in index.html page.
+- 85px - 10px - 10px = 65px in classes.html page.
+- Did not find the cause.
+- Put bootstrap on every html page.
+- I guess the learning is to add boorstrap earlier in the development.
 
 
 Menu wobble
-Home and Gallery have a scroll bar.
-Classes and Contact Us do not.
-So changing from a page with a scroll bar to one without is causing the menu wobble.
+- Menu wobbles when going through the menu.
+- Home and Gallery have a scroll bar.
+- Classes and Contact Us do not.
+- So changing from a page with a scroll bar to one without is causing the menu wobble.
 
 
-TBD's
-- Fix pdf links in MD above.
-- fix fonts.
-- Change icon?
-- Fix reverse order menu so index.html does not need to be reversed.
-- Add blank line.
-- Remove underscore from Social media icons.
-- De-magnify hero image.
-- Add a page with prices/membership.
+
+### Revision history
+Commit Messages as detailed below.
+
+
+Initial commit
+- 9th February 2021
+- Created GitHub project from Code Institute template.
+- Copied (in GitHub) this README file from Code Institute Example README.md template.
+- Opened GitHub project in GitPod.
+- Started README Acknowledgements.
+- Created project folder structure with index.html and style.css files.
+
+
+Add Wireframes
+- 14th February 2021
+- Created Wireframes with Balsamiq Wireframes.
+- Added to wireframes directory in assets directory.
+- Updated README UX section.
+
+
+Add index.html Menu
+- 17th February 2021
+ - Added menu items.
+ - Added footer items.
+
+
+Start Middle section
+- 20th February 2021
+- Mid section of home (hero image) and contact us (contact left, middle and right) both added to index.html.
+- Hero image section is commented out when contact us is being worked on etc.
+- Supports working on one HTML file until the very end when index.html will be saved as other html files.
+- Insert temporary hero image from Love Running lesson.
+- Started Contact section.
+
+
+Start Contact section
+- 22nd February 2021
+- Add contact details on L.H.S.
+- Add map in middle.
+- Add form on R.H.S. Needs to be styled.
+
+
+Start Footer Section
+- 22nd February 2021
+- Move map section to the right. This supports one background image behind contact details and contact form if needed.
+- Align Footer with Contact section above.
+
+
+Start classes.html
+- 24nd February 2021
+- Styling of index.html with contact.html code nearly completed.
+- Started timetable in classes.html.
+
+
+Add Classes Table
+- 24nd February 2021
+- Added table for classes.
+
+
+Style Mods
+- 26th February 2021
+- Added border under header.
+- Reduced height of Icon and GYM WEBSITE for Iphone X.
+- Moved social media icons from fourth div to right of 3rd div.
+- Removed off white icon background.
+
+
+Configure Pages
+ - 28th February 2021
+ - Completed index.html page.
+ - Copied index.html to contact.html. Note that the index.html page has been used to debug the "Contact Us" page.
+ - Setup index.html as landing page with hero image.
+ - Copied index.html for gallery.html and classes.html.
+ - Changed classes page to use bootstrap table.
+ - Added images to images folder.
+ - Tweaked Gym Website look and feel based on tutor feedback.
+
+
+Updated Readme
+- 28th February 2021
+- Updated Readme
+
+
+Updated Readme 2
+- 28th February 2021
+- Updated Readme to include a validation file and see what it looks like in Github.
+
+
+Updated Readme 3
+- 28th February 2021
+- Updated Readme to include a reformatted validation file and see what it looks like in Github.
+
+
+Updated Readme 4
+- 28th February 2021
+- Readme Work In Progress.
