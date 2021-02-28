@@ -1,6 +1,9 @@
 # Gym Website
 
 
+[Deployed Project](assets/wireframes/gym_website_home.pdf)
+
+
 The website here was designed to be simple and non fussy. The gallery images top centre shows two guys giving a high five. When attending a gym class one needs to form mini teams to go through the equipment for e.g. HIIT or TABATA classes.
 Mutual support and motivation increases class enjoyment an increseases health outcomes.
 There are also those who discuss equipment avaliable at a gym. The top left gallery image was provided to support this.
@@ -144,22 +147,30 @@ The code works ok with the exception of the "To be Fixed" items as detailed.
 
 ## UX Testing
 
+
 The site's users are gym members and potential members, who want to know more about the gym and its procedures.
 - This requirement has been addressed with a clear easily found timetable.
 - A Contact Us section also allows for any additional queries.
 
+
 The gym is interested in attracting and retaining members.
 - The sites classes time table attracts and retains members.
+- New members will see the wide range of classes available.
+- Existing members will be happy finding the classes in an efficient manner and not get dissatisfied with the Gym.
 - The gallery section attracts new members as does the map with the location of the Gym.
+
 
 As a Gym user 99% of the time I just want to know what time the classes were on and which classes are available.
 - The Classes section is very easy to find.
 
+
 As a Gym provider the gallery section provides welcoming images of the Gym.
 - the gallery has some good images of the Gym.
 
+
 The website promotes the image of a professional well run Gym.
 - An efficient and non fussy website will attract new menbers who would otherwise timeout trying to navigate a complicated website.
+
 
 The Contact Us section allows users to contact the gym as regards membership or class availability.
 - The Contact Us Section makes sure that users complete all fields before submission enabling good customer communication and Gym feedback.
@@ -202,6 +213,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The format of the planet health limerick site has some similarities to Code Institute Student Mini Project with Bootstrap 4.
 - The format of this README file came from the Code Institute.
 - The template for this project is the Code Institute student template for Gitpod.
+- The correct menu left to right order on both desktop and iphone X can from https://stackoverflow.com/
 - The Gallery page was 100% copy and paste from Code Institute Love Running Lesson.
 - The hero image alt text solution came from https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
 - Excellence Ilesanmi provided mentor support and feedback on the Gym Website pages.
@@ -342,11 +354,18 @@ Classes table
 
 
 Menu wobble
-- Menu wobbles when going through the menu.
+- The Menu wobbles a little when going through the menu.
 - Home and Gallery have a scroll bar.
 - Classes and Contact Us do not.
 - So changing from a page with a scroll bar to one without is causing the menu wobble.
 
+
+Correct commits
+- Some commits did not update the repository correctly.
+- It took until the last day to figure this out.
+- There can be more than one terminal open in Gitpod.
+- Commits from sub folder terminals e.g. the css folder does not add all files - as expected.
+- Commits from gitpod/workspace/gym-website do update all sub folders and files.
 
 
 ### Revision history
@@ -466,3 +485,9 @@ Updated Readme 7
 Updated Readme 8
 - 28th February 2021
 - Added UX testing updates.
+
+
+Rename images
+- 28th February 2021
+- Changed images to all lower case.
+- Updates style.css for Hero Image and gallery.html for gallery images.
