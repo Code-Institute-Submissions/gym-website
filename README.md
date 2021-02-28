@@ -493,6 +493,11 @@ Rename images
 - Updates style.css for Hero Image and gallery.html for gallery images.
 
 
-Debug image path for Github.
+Debug image path for Github
 - 28th February 2021
 - add ./assets etc.
+
+
+Debug image path for Github 2
+- 28th February 2021
+- debug paths
