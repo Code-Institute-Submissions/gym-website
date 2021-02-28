@@ -506,3 +506,8 @@ Debug image path for Github 2
 Debug paths
 - 28th February 2021
 - adding full html path
+
+
+Debug paths 2
+- 28th February 2021
+- adding full html path to hero image

@@ -170,7 +170,7 @@ a.icon:hover {
 #hero-image {
     height:760px;  
     width: 100%;  
-    background: url("./assets/images/adobestock_214596042.jpeg") no-repeat center center;
+    background: url("https://fene20.github.io/gym-website/assets/images/adobestock_214596042.jpeg") no-repeat center center;
     background-size: cover;
     overflow: hidden;
     position: fixed;
