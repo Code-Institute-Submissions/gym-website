@@ -107,8 +107,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [Gallery page on a Desktop](assets/testing/Gallery.JPG)
 - [Gallery page on an iphone](assets/testing/Gallery_iphone_X.JPG)
 
-- [Contact page Us on a Desktop](https://getbootstrap.com/Contact_Us.JPG)
-- [Contact page Us on an iphone](https://getbootstrap.com/Contact_iphone_X.JPG)
+- [Contact Us page on a Desktop](assets/testing/Contact_Us.JPG)
+- [Contact Us page on an iphone](assets/testing/Contact_iphone_X.JPG)
 
 
 
@@ -415,3 +415,8 @@ Updated Readme 4
 Updated Readme 5
 - 28th February 2021
 - Add test images.
+
+
+Updated Readme 6
+- 28th February 2021
+- Add last 2 test images again
