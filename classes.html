@@ -1,600 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gym Website</title>
-    <!--External styles loaded into browser first -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <!--Followed by local styles -->
-    <link href="assets/css/style.css" rel="stylesheet" type ="text/css"/>
-</head>
-<body>
-
-
-    <header >
-      <div> 
-        <!--Leave home as both a working Icon and h2 text for now-->
-        <a href="index.html" id="icon"><i class="fas fa-child"></i></a>   <!--  neither dumbbell nor running icons are working right now.      -->
-        <a href="index.html" id="icon"><h2>Gym Website</h2></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gym Website</title>
+        <!--External styles loaded into browser first -->
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <!--Followed by local styles -->
+        <link href="assets/css/style.css" rel="stylesheet" type ="text/css"/>
+    </head>
+    <body>
         
-        <nav> 
-            <ul id="menu">
-                <li>
-                    <a class="active" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="classes.html">Classes</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+        <header>
+            <div> 
+                <!--Leave home as both a working Icon and h2 text for now-->
+                <a href="index.html" class="icon"><i class="fas fa-child"></i></a>
+                <!--No alt for icon as Gym Website will be read-->
+                <h2 class="icon">Gym Website</h2>
+
+                <nav> 
+                    <ul id="menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="active" href="classes.html">Classes</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+            </div>
+
+        </header>
     
-    </div>
-    </header>
+        <section>
 
-    <!--Clear previous floats-->
-    <div id="clear-previous-floats">
-        <!--Empty div here to stop div's below from wrapping up into the menu bar-->
-    </div>
+        <div class="table-responsive-sm">
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Times</th>
+                        <th scope="col">Monday</th>
+                        <th scope="col">Tuesday</th>
+                        <th scope="col">Wednesday</th>
+                        <th scope="col">Thursday</th>
+                        <th scope="col">Friday</th>
+                        <th scope="col">Saturday</th>
+                        <th scope="col">Sunday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th scope="row">6:30AM to 7:30AM</th>
+                        <td>Spin</td>
+                        <td></td>
+                        <td>Spin</td>
+                        <td></td>
+                        <td>Spin</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">7:00AM to 8:00AM</th>
+                        <td></td>
+                        <td>HIIT</td>
+                        <td></td>
+                        <td>HIIT</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">7:30AM to 8:30AM</th>
+                        <td>B Blitz</td>
+                        <td></td>
+                        <td>B Blitz</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">1:00PM to 2:00PM</th>
+                        <td>B Blitz</td>
+                        <td></td>
+                        <td>B Blitz</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">5:00PM to 6:00PM</th>
+                        <td>Boxercise</td>
+                        <td>Kettlebells</td>
+                        <td></td>
+                        <td></td>
+                        <td>B Blitz</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">6:00PM to 7:00PM</th>
+                        <td>HIIT</td>
+                        <td></td>
+                        <td>TABATA</td>
+                        <td></td>
+                        <td>Zumba</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">7:00PM to 8:00PM</th>
+                        <td>Circuits</td>
+                        <td></td>
+                        <td>Circuits</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
 
-<!--Monday-->
-<div>
-    <table>
-        <tr>
-            <td class="mobile"></td>
-            <td class="m-time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="m-time"></td>
-            <td class="desktop"></td> <!-- Classses was here -->
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile">Monday</td>
-            <td class="m-time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="m-time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="m-time">Time</td>
-            <td class="desktop">Monday</td>  
-            <td class="mobile">Class</td>
-        </tr>
-        <tr>
-            <!-- Change the classes by changing BOTH desktop and mobile entries for a given time -->
-            <td class="mobile"></td>
-            <td class="m-time">6:30 AM - 7:30 AM</td>
-            <td class="desktop">Spin</td>
-            <td class="mobile">Spin</td>    
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="m-time">7:00 AM - 8:00 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr>    
-        <tr>
-            <td class="mobile"></td>
-            <td class="m-time">7:30 AM - 8:30 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="m-time">1:00 PM - 2:00 PM</td>
-            <td class="desktop">B Blitz</td>
-            <td class="mobile">B Blitz</td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="m-time">5:00 PM - 6:00 PM</td>
-            <td class="desktop">Boxercise</td>
-            <td class="mobile">Boxercise</td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="m-time">6:00 PM - 7:00 PM</td>
-            <td class="desktop">HIIT</td>
-            <td class="mobile">HIIT</td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="m-time">7:00 PM - 8:00 PM</td>
-            <td class="desktop">Circuits</td>
-            <td class="mobile">Circuits</td>  
-        </tr> 
-    </table>
-</div>
+        </div>
 
-<!--Tuesday-->
-<div>
-    <table>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile">Tuesday</td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">Time</td>
-            <td class="desktop">Tuesday</td>  
-            <td class="mobile">Class</td>
-        </tr>
-                <tr>
-            <!-- Change the classes by changing BOTH desktop and mobile entries for a given time -->
-            <td class="mobile"></td>
-            <td class="time">6:30 AM - 7:30 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>    
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:00 AM - 8:00 AM</td>
-            <td class="desktop">HIIT</td>
-            <td class="mobile">HIIT</td>  
-        </tr>    
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:30 AM - 8:30 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">1:00 PM - 2:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">5:00 PM - 6:00 PM</td>
-            <td class="desktop">Kettlebells</td>
-            <td class="mobile">Kettlebells</td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">6:00 PM - 7:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:00 PM - 8:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-    </table>
-</div> 
+        </section>
+        <!--Footer-->
+        <footer>
+            <div id="footer-left">
+                <h3>Gym Website,</h3>
+                <h3>15 Main Street,</h3>
+                <h3>Limerick</h3>
+            </div>
 
-<!--Wednesday-->
-<div>
-    <table>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile">Wednesday</td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">Time</td>
-            <td class="desktop">Wednesday</td>  
-            <td class="mobile">Class</td>
-        </tr>
-        <tr>
-            <!-- Change the classes by changing BOTH desktop and mobile entries for a given time -->
-            <td class="mobile"></td>
-            <td class="time">6:30 AM - 7:30 AM</td>
-            <td class="desktop">Spin</td>
-            <td class="mobile">Spin</td>    
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:00 AM - 8:00 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr>    
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:30 AM - 8:30 AM</td>
-            <td class="desktop">Circuits</td>
-            <td class="mobile">Circuits</td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">1:00 PM - 2:00 PM</td>
-            <td class="desktop">B blitz</td>
-            <td class="mobile">B Blitz</td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">5:00 PM - 6:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">6:00 PM - 7:00 PM</td>
-            <td class="desktop">Tabata</td>
-            <td class="mobile">Tabata</td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:00 PM - 8:00 PM</td>
-            <td class="desktop">Circuits</td>
-            <td class="mobile">Circuits</td>  
-        </tr> 
-    </table>
-</div> 
+            <div id="footer-middle">
+                <h3>gym-website@hotmail.com</h3>
+            </div>
 
-<!--Thursday-->
-<div>
-    <table>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile">Thursday</td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">Time</td>
-            <td class="desktop">Thursday</td>  
-            <td class="mobile">Class</td>
-        </tr>
-        <tr>
-            <!-- Change the classes by changing BOTH desktop and mobile entries for a given time -->
-            <td class="mobile"></td>
-            <td class="time">6:30 AM - 7:30 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>    
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:00 AM - 8:00 AM</td>
-            <td class="desktop">HIIT</td>
-            <td class="mobile">HIIT</td>  
-        </tr>    
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:30 AM - 8:30 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">1:00 PM - 2:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">5:00 PM - 6:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">6:00 PM - 7:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:00 PM - 8:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-    </table>
-</div> 
+            <div id="footer-right">
 
-<!--Friday-->
-<div>
-    <table>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile">Friday</td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">Time</td>
-            <td class="desktop">Friday</td>  
-            <td class="mobile">Class</td>
-        </tr>
-        <tr>
-            <!-- Change the classes by changing BOTH desktop and mobile entries for a given time -->
-            <td class="mobile"></td>
-            <td class="time">6:30 AM - 7:30 AM</td>
-            <td class="desktop">Spin</td>
-            <td class="mobile">Spin</td>    
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:00 AM - 8:00 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr>    
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:30 AM - 8:30 AM</td>
-            <td class="desktop">Circuits</td>
-            <td class="mobile">Circuits</td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">1:00 PM - 2:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">5:00 PM - 6:00 PM</td>
-            <td class="desktop">B Blitz</td>
-            <td class="mobile">B Blitz</td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">6:00 PM - 7:00 PM</td>
-            <td class="desktop">Zumba</td>
-            <td class="mobile">Zumba</td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:00 PM - 8:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-    </table>
-</div> 
+                <div id="left-number">
+                    <h3>061-123456</h3>
+                </div>
 
-<!--Saturday-->
-<div>
-    <table>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile">Saturday</td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">Time</td>
-            <td class="desktop">Saturday</td>  
-            <td class="mobile">Class</td>
-        </tr>
-        <tr>
-            <!-- Change the classes by changing BOTH desktop and mobile entries for a given time -->
-            <td class="mobile"></td>
-            <td class="time">6:30 AM - 7:30 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>    
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:00 AM - 8:00 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr>    
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:30 AM - 8:30 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">1:00 PM - 2:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">5:00 PM - 6:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">6:00 PM - 7:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:00 PM - 8:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-    </table>
-</div>
+                <div id="right-sm">
+                    <ul id="social-media">
+                        <!-- Free Fontawesome icons -->
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
 
-<!--Sunday-->
-<div>
-    <table>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile">Sunday</td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time"></td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">Time</td>
-            <td class="desktop">Sunday</td>  
-            <td class="mobile">Class</td>
-        </tr>
-        <tr>
-            <!-- Change the classes by changing BOTH desktop and mobile entries for a given time -->
-            <td class="mobile"></td>
-            <td class="time">6:30 AM - 7:30 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>    
-        </tr>
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:00 AM - 8:00 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr>    
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:30 AM - 8:30 AM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">1:00 PM - 2:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">5:00 PM - 6:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">6:00 PM - 7:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-        <tr>
-            <td class="mobile"></td>
-            <td class="time">7:00 PM - 8:00 PM</td>
-            <td class="desktop"></td>
-            <td class="mobile"></td>  
-        </tr> 
-    </table>
-</div>
+            </div>
 
-</body>
+        </footer>
+        
+
+    </body>
 </html>

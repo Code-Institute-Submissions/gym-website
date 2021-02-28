@@ -1,40 +1,41 @@
 # Gym Website
 
-One or two paragraphs providing an overview of your project.
 
-Essentially, this part is your sales pitch.
+The website here was designed to be simple and non fussy. The gallery images top centre shows two guys giving a high five. When attending a gym class one needs to form mini teams to go through the equipment for e.g. HIIT or TABATA classes.
+Mutual support and motivation increases class enjoyment an increseases health outcomes.
+There are also those who discuss equipment avaliable at a gym. The top left gallery image was provided to support this.
+
+
+
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Most Gym users are researching classes and availability during a busy day at work. They want instant access to information with little clicking and scrolling.
+This website has a clear Classes page with a Contact Us page. Most Gym Website users are already attending a gym and just want to know some core details.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
-
-
+- The site's users are gym members and potential members, who want to know more about the gym and its procedures.
+- The gym is interested in attracting and retaining members.
+- As a Gym user 99% of the time I just want to know what time the classes were on and which classes they are.
+- As a Gym provider the gallery section provides welcoming images of the Gym.
+- The website promotes the image of a professional well run Gym.
+- The Contact Us section allows users to contact the gym as regards membership or class availability.
 
 
 [Home Page](assets/wireframes/gym_website_home.pdf)
-    
 This is the landing page with a hero image.
-This page ontains the Menu items.
-All pages including the home page wil  have a fixed header and footer.
-The header will be setup in thirds. See Phone where the Gym Icon is followed by Home over Gallery and Classes over contact us.
+This page contains the Menu items.
+All pages including the home page will have a fixed header and footer.
+The header will be setup in thirds. See Phone where the Gym Icon is followed by Home over Gallery and Classes over Contact Us.
 See Desktop where the footer is also setup in thirds.
 See Phone were the footer is shown in two rows. This may be changed to three rows depending on the font size.
-The Icon wil contain the Name of the gym.
-The name of the gym (not displayed in the wireframe) may also be included above the Menu bar so that the Desktop does not look too basic.
-
+The Icon wil contain the Name of the gym (Gym Website).
+The name of the Gym (not displayed in the wireframe) may also be included above the Menu bar so that the Desktop does not look too basic.
 
 
 [Classes Page](assets/wireframes/gym_website_classes.pdf)
-
 The classes page is the most important page for new and existing members.
 This is the one page that will be used the most.
-Classes can be pay as you go and free to members with certain membership packages.
+Classes can be pay as you go or free to members with certain membership packages.
 The timetable on the Tablet will likely be a squeezed version of the Desktop timetable.
 A squashed and wrapped Desktop timetable will not work on the Phone.
 The Phone wireframe shows two Desktop columns, one for the Times and one for the Days of the week.
@@ -46,43 +47,37 @@ There is a gap in the footer where the table is visable.
 The footer format will be coded to prevent this.
 
 
-
 [Contact Page](assets/wireframes/gym_website_contact.pdf)
-
-The Contact page has details of how to contact the gym, a map to help locate the gym and a contact for so that one can submit queries when one is e.g. at work.
-Most new users will simply just need to ring or email the Gym or figure out where it is on the map.
+The Contact page has details of how to contact the gym, a map to help locate the gym and a contact form so that one can submit queries when one is e.g. at work.
+Most new users will simply just need to ring or email the Gym regarding classes or membership or to figure out where it is by looking at the map.
 Both existing and new members may wish to book a session with a particular instructor or enquire about the exercises in various casses etc.
 The Phone Contact page is shown without the fixed footer.
 
 
-
 [Gallery page](assets/wireframes/gym_website_gallery.pdf)
-
-The Gallery page has images from the Gym to entice new mwmbers to join. These images may highlight particular equipment that the Gym has.
-The Desktop may look nicer if the images were in thirds, i.e. three across instead of two as shown in the wireframe.
+The Gallery page has images from the Gym to entice new members to join. These images may highlight particular equipment that the Gym has.
+The Desktop may look nicer if the images are in thirds, i.e. three columns instead of two as shown in the wireframe.
 
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Feature 1 - The landing page is a simple page with a Hero Image and the relevant Gym Links.
+- Feature 2 - The Classes page allows users to see when the classes are scheduled.
+- Feature 2 - The Contact Us gives contact details with a map to help users to locate the Gym.
+- Feature 3 - The Contact Us page also allows users to input their detail and contact the Gym for feedback on their queries.
+- Feature 4 - The Gallery page has images of the Gym to attract new members.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Another feature idea would be to add a page with membership options.
+
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+
 
 
 - [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/)
@@ -90,14 +85,14 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [Icons](https://fontawesome.com/)
     - This project used free **Fontawesome** icons.
-    - The icons were, the child icon, facebook icon and instagram icon.
+    - The icons uses were, the child icon, facebook icon and instagram icon.
 
 - [CSS-TRICKS](https://css-tricks.com/complete-guide-table-element)
     - This project used code from **CSS-TRICKS** to support debug by enabling a table border.
-    - The border can not be used in the final render.
+    - This was used for debug only as Bootstrap was used to generate the Classes table.
 
-
-
+- [Bootstrap](https://getbootstrap.com/)
+    - This project used a table from **Bootstrap** to generate the classes table.
 
 
 ## Testing
@@ -139,6 +134,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 - The photos used in this site were obtained from ...
+https://stock.adobe.com/ie/
+
 
 ### Acknowledgements
 
@@ -148,28 +145,36 @@ The format of the planet health limerick site has some similarities to Code Inst
 - The template for this project is the Code Institute student template for Gitpod.
 - The Gallery was 100% copy and paste from Code Institute Love Running Lesson.
 
+        <!-- alt text is contained in aria-label = "  " -->
+        <!-- 
+        Credit:
+        https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html -->
+
 
 ### Revision history
-Initial commit (commit message)
+
+Commit Messages as detailed below.
+
+Initial commit
 - 9th February 2021
 - Created GitHub project from Code Institute template.
-- Copied in GitHub this README file from Code Institute Example README.md template.
+- Copied (in GitHub) this README file from Code Institute Example README.md template.
 - Opened GitHub project in GitPod.
 - Started README Acknowledgements.
 - Created project folder structure with index.html and style.css files.
 
-Add Wireframes (commit message)
+Add Wireframes
 - 14th February 2021
 - Created Wireframes with Balsamiq Wireframes.
 - Added to wireframes directory in assets directory.
 - Updated README UX section.
 
-Add index.html Menu (commit message)
+Add index.html Menu
 - 17th February 2021
  - Added menu items.
  - Added footer items.
 
-Start Middle section (commit message)
+Start Middle section
 - 20th February 2021
 - Mid section of home (hero image) and contact us (contact left, middle and right) both added to index.html.
 - Hero image section is commented out when contact us is being worked on etc.
@@ -177,23 +182,23 @@ Start Middle section (commit message)
 - Insert temporary hero image from Love Running lesson.
 - Started Contact section.
 
-Start Contact section (commit message)
+Start Contact section
 - 22nd February 2021
 - Add contact details on L.H.S.
 - Add map in middle.
 - Add form on R.H.S. Needs to be styled.
 
-Start Footer Section (commit message)
+Start Footer Section
 - 22nd February 2021
-- Move map section to the right. This supports one background image behind contact details and contact form.
+- Move map section to the right. This supports one background image behind contact details and contact form if needed.
 - Align Footer with Contact section above.
 
-Start classes.html (commit message)
+Start classes.html
 - 24nd February 2021
 - Styling of index.html with contact.html code nearly completed.
 - Started timetable in classes.html.
 
-Add Classes Table (commit message)
+Add Classes Table
 - 24nd February 2021
 - Added table for classes.
 
@@ -203,6 +208,19 @@ Style Mods
 - Reduced height of Icon and GYM WEBSITE for Iphone X.
 - Moved social media icons from fourth div to right of 3rd div.
 - Removed off white icon background.
+
+Configure Pages
+ - 28th February 2021
+ - Completed index.html page.
+ - Copied index.html to contact.html. Note that the index.html page has been used to debug the "Contact Us" page.
+ - Setup index.html as landing page with hero image.
+ - Copied index.html for gallery.html and classes.html.
+ - Changed classes page to use bootstrap table.
+ - Added images to images folder.
+ - Tweaked Gym Website look and feel based on tutor feedback.
+
+
+
 
 Challenges
 
@@ -302,6 +320,28 @@ Margins
 
 
 
+        <!-- alt text is contained in aria-label = "  " -->
+        <!-- 
+        Credit:
+        https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html -->
+
+
+Classes table
+Added bootstrap before local styling in classes page but header and footer styling were adjusted on the classes page w.r.t. other pages.
+Used Google inspect on header.
+Added fontweight of 600 to h2 to force h2 fontweight.
+Used Google inspect on footer.
+index.html footer is 85px high whereas classes.html footer is 65px high.
+Put bootstrap on every html page.
+I guess the learning is to add boorstrap earlier in the development.
+
+
+Menu wobble
+Home and Gallery have a scroll bar.
+Classes and Contact Us do not.
+So changing from a page with a scroll bar to one without is causing the menu wobble.
+
+
 TBD's
 - Fix pdf links in MD above.
 - fix fonts.
@@ -309,55 +349,5 @@ TBD's
 - Fix reverse order menu so index.html does not need to be reversed.
 - Add blank line.
 - Remove underscore from Social media icons.
-
-
-
-
-
-
-
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome fene20,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+- De-magnify hero image.
+- Add a page with prices/membership.
