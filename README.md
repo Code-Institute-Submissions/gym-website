@@ -526,3 +526,8 @@ Update README Deployment
 Add deployed project link
 - 28th February 2021
 - Add link to deployed project
+
+
+Change lang
+- 28th February 2021
+- Changed lang="en-US"
