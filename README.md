@@ -145,7 +145,7 @@ Contact Us
 - The solid line under the menu does not remain fixed under the menu with scrolling. To be Fixed.
 - [Contact Us page on a Desktop](assets/testing/Contact_Us.JPG)
 - [Contact Us page on an iphone](assets/testing/Contact_iphone_X.JPG)
-
+- [Completed Form Acknowledgement](assets/testing/Form.JPG)
 
 
 The code was also configured for 1396px screens. These images are not detailed above.
@@ -531,3 +531,8 @@ Add deployed project link
 Change lang
 - 28th February 2021
 - Changed lang="en-US"
+
+
+Add submitted Form Image
+- 28th February 2021
+- Add submitted Form Image
