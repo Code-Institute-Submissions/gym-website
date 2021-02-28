@@ -1,7 +1,7 @@
 # Gym Website
 
 
-[Deployed Project](assets/wireframes/gym_website_home.pdf)
+[Deployed Project](https://fene20.github.io/gym-website/index.html)
 
 
 The website here was designed to be simple and non fussy. The gallery images top centre shows two guys giving a high five. When attending a gym class one needs to form mini teams to go through the equipment for e.g. HIIT or TABATA classes.
@@ -108,6 +108,9 @@ Home Page
 - The social media icons open new pages - for every Gym Website page.
 - [Home page on a Desktop](assets/testing/Home.JPG)
 - [Home page on an iphone](assets/testing/Home_iphone_X.JPG)
+- During the Githup deployment it was observed that the images did not load.
+- The alt did not work as expected for the Hero Image.
+- [Home page on an iphone](assets/testing/iphone_home_alt.JPG) To be Fixed.
 
 
 Classes
@@ -127,6 +130,9 @@ Gallery
 - The gallery page changes to 1 columns for an iphone.
 - [Gallery page on a Desktop](assets/testing/Gallery.JPG)
 - [Gallery page on an iphone](assets/testing/Gallery_iphone_X.JPG)
+- During the Githup deployment it was observed that the images did not load.
+- The alt did work as expected for the Gallery Images.
+- [Home page on an iphone](assets/testing/iphone_gallery_alt.JPG) To be Fixed.
 
 
 Contact Us
@@ -139,6 +145,7 @@ Contact Us
 - The solid line under the menu does not remain fixed under the menu with scrolling. To be Fixed.
 - [Contact Us page on a Desktop](assets/testing/Contact_Us.JPG)
 - [Contact Us page on an iphone](assets/testing/Contact_iphone_X.JPG)
+
 
 
 The code was also configured for 1396px screens. These images are not detailed above.
@@ -189,14 +196,9 @@ The Contact Us section allows users to contact the gym as regards membership or 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+During deployment the web page would not open. The images were changed to all lower case to fix this.
+When the Gym Website did open the images would not load.
+The path to the images in both Gitpod and Github have been changed to point to use the full Gitpod URL so that and additional README changes etc. will not break Githup.
 
 
 ## Credits
@@ -511,3 +513,8 @@ Debug paths
 Debug paths 2
 - 28th February 2021
 - adding full html path to hero image
+
+
+Update README Deployment
+- 28th February 2021
+- Updated readme.
