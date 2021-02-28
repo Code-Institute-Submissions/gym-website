@@ -497,14 +497,15 @@ footer i {
 
 /*--------------------Table------------------*/
 
+#timetable h3 {
+    margin-top: 10px;
+}
 
-    
 
-
- .table-responsive-sm{
+.table-responsive-sm{
     background-color: #fafafa;
     margin-top: 50px;
- }
+}
 
 
 

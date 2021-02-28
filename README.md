@@ -115,6 +115,15 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+Validating
+- [style.css](assets/code_validation/W3C CSS Validator results for style.css (CSS level 3 + SVG).pdf)
+- [index.html](https://getbootstrap.com/)
+- [classes.html](https://getbootstrap.com/)
+- [gallery.html](https://getbootstrap.com/)
+- [contact.html](https://getbootstrap.com/)
+
+
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -219,6 +228,9 @@ Configure Pages
  - Added images to images folder.
  - Tweaked Gym Website look and feel based on tutor feedback.
 
+Updated Readme
+- 28th February 2021
+- Updated Readme
 
 
 
