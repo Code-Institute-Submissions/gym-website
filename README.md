@@ -501,3 +501,8 @@ Debug image path for Github
 Debug image path for Github 2
 - 28th February 2021
 - debug paths
+
+
+Debug paths
+- 28th February 2021
+- adding full html path
