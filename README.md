@@ -116,11 +116,11 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Validating
-- [style.css](assets/code_validation/W3C CSS Validator results for style.css (CSS level 3 + SVG).pdf)
-- [index.html](https://getbootstrap.com/)
-- [classes.html](https://getbootstrap.com/)
-- [gallery.html](https://getbootstrap.com/)
-- [contact.html](https://getbootstrap.com/)
+- [style.css](assets/code_validation/W3C_CSS_Validator_results_for_style_css_CSS_level_3_+_SVG.pdf)
+- [index.html](assets/code_validation/Showing_results_for_uploaded_file_index_html_Nu_Html_Checker.pdf)
+- [classes.html](assets/code_validation/Showing_results_for_uploaded_file_classes_html_Nu_Html_Checker.pdf)
+- [gallery.html](assets/code_validation/Showing_results_for_uploaded_file_gallery_html_Nu_Html_Checker.pdf)
+- [contact.html](assets/code_validation/Showing_results_for_uploaded_file_contact_html_Nu_Html_Checker.pdf)
 
 
 
@@ -231,6 +231,15 @@ Configure Pages
 Updated Readme
 - 28th February 2021
 - Updated Readme
+
+Updated Readme 2
+- 28th February 2021
+- Updated Readme to include a validation file and see what it looks like in Github.
+
+Updated Readme 3
+- 28th February 2021
+- Updated Readme to include a reformatted validation file and see what it looks like in Github.
+
 
 
 
