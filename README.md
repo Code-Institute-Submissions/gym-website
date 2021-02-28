@@ -97,6 +97,21 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
+
+- [Home page on a Desktop](assets/testing/Home.JPG)
+- [Home page on an iphone](assets/testing/Home_iphone_X.JPG)
+
+- [Classes page on a Desktop](assets/testing/Classes.JPG)
+- [Classes page on an iphone](assets/testing/Classes_iphone_X.JPG)
+
+- [Gallery page on a Desktop](assets/testing/Gallery.JPG)
+- [Gallery page on an iphone](assets/testing/Gallery_iphone_X.JPG)
+
+- [Contact page Us on a Desktop](https://getbootstrap.com/Contact_Us.JPG)
+- [Contact page Us on an iphone](https://getbootstrap.com/Contact_iphone_X.JPG)
+
+
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -115,12 +130,12 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Validation results.
+## Code Validation results.
+
 - [style.css](assets/code_validation/W3C_CSS_Validator_results_for_style_css_CSS_level_3_+_SVG.pdf)
 - [index.html](assets/code_validation/Showing_results_for_uploaded_file_index_html_Nu_Html_Checker.pdf)
 - [classes.html](assets/code_validation/Showing_results_for_uploaded_file_classes_html_Nu_Html_Checker.pdf)
-- [gallery.html](assets/code_validation/Showing_results_for_uploaded_file_gallery_html_Nu_Html_Checker.pdf)
-- No need for a heading on a gallery page.
+- [gallery.html](assets/code_validation/Showing_results_for_uploaded_file_gallery_html_Nu_Html_Checker.pdf) No need for a heading on a gallery page.
 - [contact.html](assets/code_validation/Showing_results_for_uploaded_file_contact_html_Nu_Html_Checker.pdf)
 
 
@@ -395,3 +410,8 @@ Updated Readme 3
 Updated Readme 4
 - 28th February 2021
 - Readme Work In Progress.
+
+
+Updated Readme 5
+- 28th February 2021
+- Add test images.
