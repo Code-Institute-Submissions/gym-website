@@ -70,7 +70,7 @@ The Desktop may look nicer if the images are in thirds, i.e. three columns inste
 
 
 ### Features Left to Implement
-- Another feature idea would be to add a page with membership options.
+- Another feature idea would be to add a page with membership options with prices.
 
 
 ## Technologies Used
@@ -138,7 +138,32 @@ Contact Us
 - [Contact Us page on an iphone](assets/testing/Contact_iphone_X.JPG)
 
 
-The code works ok with the exception of the "To be Fixed" items detailed.
+The code was also configured for 1396px screens. These images are not detailed above.
+The code works ok with the exception of the "To be Fixed" items as detailed.
+
+
+## UX Testing
+
+The site's users are gym members and potential members, who want to know more about the gym and its procedures.
+- This requirement has been addressed with a clear easily found timetable.
+- A Contact Us section also allows for any additional queries.
+
+The gym is interested in attracting and retaining members.
+- The sites classes time table attracts and retains members.
+- The gallery section attracts new members as does the map with the location of the Gym.
+
+As a Gym user 99% of the time I just want to know what time the classes were on and which classes are available.
+- The Classes section is very easy to find.
+
+As a Gym provider the gallery section provides welcoming images of the Gym.
+- the gallery has some good images of the Gym.
+
+The website promotes the image of a professional well run Gym.
+- An efficient and non fussy website will attract new menbers who would otherwise timeout trying to navigate a complicated website.
+
+The Contact Us section allows users to contact the gym as regards membership or class availability.
+- The Contact Us Section makes sure that users complete all fields before submission enabling good customer communication and Gym feedback.
+
 
 
 ## Code Validation results.
@@ -177,12 +202,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The format of the planet health limerick site has some similarities to Code Institute Student Mini Project with Bootstrap 4.
 - The format of this README file came from the Code Institute.
 - The template for this project is the Code Institute student template for Gitpod.
-- The Gallery was 100% copy and paste from Code Institute Love Running Lesson.
+- The Gallery page was 100% copy and paste from Code Institute Love Running Lesson.
 - The hero image alt text solution came from https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
-- Excellence Ilesanmi provided tutor support and feedback on the Gym Website pages.
+- Excellence Ilesanmi provided mentor support and feedback on the Gym Website pages.
 
 
 ### Challenges
+
 
 
 index.html
@@ -327,6 +353,7 @@ Menu wobble
 Commit Messages as detailed below.
 
 
+
 Initial commit
 - 9th February 2021
 - Created GitHub project from Code Institute template.
@@ -434,3 +461,8 @@ Updated Readme 6
 Updated Readme 7
 - 28th February 2021
 - Added testing updates.
+
+
+Updated Readme 8
+- 28th February 2021
+- Added UX testing updates.
