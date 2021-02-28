@@ -291,7 +291,14 @@ Footer Icons
 - It was a challenge to target the anchor with CSS.
 - For debug the icon was removed and replaced with text.
 - A simple specificity seemed to work best (#social-media a {background-color: #555555; }) and (#social-media a {text-decoration: none; }) 
-- With working the font awesome Icons were put back into the HTML.
+- With off white background the font awesome Icons were put back into the HTML.
+
+Margins
+- Set the header and footer heights to fit the height of their contents.
+- One would expect containers to contain what they are wrapping with an auto command or something like that and not default to a zero height.
+- Increasing the padding on the contact form for e.g. first name makes the container bigger.
+- One would expect padding to squeeze the contents of a container and not to make the container bigger.
+- But adding up the #message width of 88% with two paddings of 3% each with two margins of 3% each works out = 100%.
 
 
 

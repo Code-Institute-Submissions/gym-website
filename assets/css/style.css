@@ -1,5 +1,4 @@
 /* Credit: Code Institute Tutorial */
-/* @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300'); */
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:500');
 
 /* Credit: Code Institute Tutorial */
@@ -14,10 +13,7 @@
 body {
     font-family: Lato; /* Credit: Code Institute Tutorial */
     color: #555555; 
-    /*
-    margin-left: 1%;
-    margin-right: 1%;
-    */
+    background-color: #fafafa; 
 }
 
 /* Credit: Code Institute Tutorial */
@@ -27,6 +23,8 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #555555; 
+    font-size:150%;
+    font-weight: 600; /* needed here when bootstrap is included */
 }
 
 
@@ -42,17 +40,26 @@ h2 {
 
 
 /* Credit: Code Institute Tutorial */
-#icon {
+.icon {
    float: left;  /* Have 2 icons Float left keeps them together */
    font-size: 280%;
    color: #555555; 
    margin-left: 30px;
 }
 
+header h2 {
+    font-size: 280%;  
+    line-height: 75px; /* both icon and menu are centered inside the same height of 75px */
+    margin-bottom: 0px;
+}
 
 #menu {
    float: right;
    margin-left: 30px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-top: 0px;
+   padding-bottom: 0px;
 }
 
 
@@ -61,19 +68,30 @@ h2 {
     margin-right: 30px; /* margin for each menu item */
 }
 
-header {
-  height: 80px;
-  border-bottom: 1px solid #555555; 
+
+header div {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 
-#icon, #menu {
+
+header {
+    height: 80px;
+    border-bottom: 1px solid #555555; 
+}
+
+
+.icon, #menu {
     line-height: 75px; /* both icon and menu are centered inside the same height of 75px */
     text-decoration: none;
 }
 
 
 @media screen and (max-width: 1396px){
+
     /* With decreasing screen width menu is going under the icon,
     then up beside the ICON an then under it again - fix here */
      #menu {
@@ -84,6 +102,11 @@ header {
     header {
     height: 150px;
     }
+
+    .icon, #menu {
+        line-height: 70px; /* both icon and menu are centered inside the same height of 75px */
+        text-decoration: none;
+    }
 }
 
 
@@ -93,19 +116,19 @@ header {
     #menu li {
         float: left;
         clear: left;   /* Credit: Code Institute Tutorial */
-        line-height: 25px; /* only menu items centered inside the same height of 25px */
+        line-height: 30px; /* Need extra 5px to see underscore */
     }
     /* Float menu to the left on a mobile */
     #menu {
     float: left;
     }
 
-    #icon {
+    .icon {
     font-size: 140%;
     }
 
     header {
-    height: 190px;
+    height: 200px;
     }
 }
 
@@ -117,7 +140,9 @@ header {
     color: inherit; /*inherit from closest parent with color set */
 }
 
-
+a.icon:hover {
+   color: #941111;
+}
 
 #menu a:hover {
    color: #941111;
@@ -125,7 +150,7 @@ header {
 
 
 .active {
-    border-bottom: 1px solid #777777; /* highlight active page */
+    border-bottom: 1px solid #555555; /* highlight active page */
 }
 
 
@@ -140,12 +165,15 @@ header {
 /*--------------------Hero------------------*/
 
 /* Credit: Code Institute Tutorial */
+
+
 #hero-image {
-    height:600px;
-    width: 100%;
-    /* Temporary image until an image is sourced that works with the web page */
-    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
-    overflow: hidden; /* image does not overflow under menu bar */
+    height:760px;  
+    width: 100%;  
+    background: url("/assets/images/AdobeStock_214596042.jpeg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    position: fixed;
 }
 
 
@@ -170,6 +198,15 @@ header {
 }
 
 
+#left-details h3 {
+    padding-top: 30px;
+}
+
+#left-details p {
+   color: #555555;  
+   font-size:150%;
+   margin-left: 40px; /* Extra 10px to distinguish <p>  */
+}
 
 /* Credit: Code Institute Tutorial */
 #right-map {
@@ -186,13 +223,18 @@ header {
     margin: 0 auto;
 }
 
-#uppercase {
+.uppercase {
     text-transform: uppercase;
 }
 
 
+form {
+    width: 100%;
+    clear:both;
+}
+
 input {
-   width: 100%;
+ /*  width: 100%; */
    border: 1px solid black;
 }
 
@@ -208,24 +250,32 @@ input {
 }
 
 
-
-#contact-sections #middle-form form {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-
 div form input {
+    clear:both;
     font-size: 150%;
-    margin-top: 20px;
     border-radius: 4px;
+    width: 92%;
+    height: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-/* message box */
+
 div form #message {
     height: 200px;
 }
 
+#middle-form{
+    clear:both;  
+}
+
+.signup-form{
+    clear:both;  
+}
 
 input[type=submit] { /* Credit: Code Institute Tutorial */
     width: 100px;
@@ -235,12 +285,39 @@ input[type=submit] { /* Credit: Code Institute Tutorial */
 
 div form #submit {
     float: left;
+    color: #555555; 
     background-color: #fafafa;
+}
+
+#submit:hover {
+   color: #941111;
 }
 
 div form ::placeholder {
     font-size: 100%;
 }
+
+
+#right-map iframe {
+    width: 100%;
+    height: 550px;
+}
+
+
+@media screen and (max-width: 1396px){
+
+    #right-map iframe {
+    height: 530px;
+    }
+
+    div form #message {
+        height: 180px;
+    }
+
+}
+
+
+
 
 
 /* Mobile */
@@ -256,18 +333,6 @@ div form ::placeholder {
 
 
 /*--------------------Footer------------------*/
-
-body footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height:175px; /* 3 rows of text, 3 X 25px = 75px.*/
-    background-color:#555555; 
-    color: #fafafa;
-}
-
-
-
 
 
 footer #footer-left {
@@ -320,7 +385,6 @@ footer #footer-right #left-number {
 footer #footer-right #right-sm {
     width: 50%;
     float: right;
-    margin-top: 10px;
 }
 
 
@@ -329,10 +393,37 @@ footer #footer-right div {
     display: inline-block;
 }
 
-footer > div {
-    font-size: 400%;
+
+
+body footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:105px; /* 3 rows of text, 3 X 25px = 75px + some margin. */
+    background-color:#555555; 
+    color: #fafafa;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
+footer div {
+ 
+    padding-top: 0px;
+    padding-bottom: 0px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer h3 {
+    font-size: 150%;
+    font-weight: 600; 
+    padding-top: 0px;
+    padding-bottom: 0px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 /* Footer Icons */
 
@@ -350,129 +441,72 @@ footer > div {
 
 
 #social-media a {
-  /*  text-decoration: none; 
-    color: #555555; */
     background-color: #555555; 
 }
 
 
+#social-media i {
+    font-size: 200%; 
+}
 
+
+footer i {
+    margin-right: 10px;
+}
 
 
 /* Mobile */
  @media screen and (max-width: 943px){
     body footer {
-        height:150px; /* 5 rows of text with one ICON row, 6 x 25px = 150px */
+        height:180px; 
     }
+
+    footer > div {
+    font-size: 80%;
+    }
+
     /* containers now float to the left */
-    footer #top div {
-        clear: left;   /* Credit: Code Institute Tutorial */
+    footer div {
+        clear: both;   /* Credit: Code Institute Tutorial */
         float: left;
     }   
     /* footer-right must now float to the left */
-    #top #footer-right {
+    footer #footer-right {
         float: left;
     } 
     /* Text can now occupy full width of 98% */ 
-    #top #footer-left {
+    footer #footer-left {
     width: 98%;
+    margin-bottom: 10px;   
     }
-    #top #footer-middle {
+    footer #footer-middle {
     width: 98%;
+    margin-bottom: 10px;
     }
-    #top #footer-right {
+    footer #footer-right {
     width: 98%;
+    margin-bottom: 10px;
     }
+
+    footer #social-media {
+        float: right;
+        margin-right: 10px;
+    }
+
 }
 
 /*--------------------Table------------------*/
 
-/* Credit: https://css-tricks.com/complete-guide-table-element/ */
-table {
-    border-collapse: collapse; /* Collapse double bars into one bar */
-}
 
-/* Credit: https://css-tricks.com/complete-guide-table-element/ */
-td, th {
-    /* Border and padding are useful for debug */
-    border: 1px solid #999;
-    padding: 0.5rem;  
-    text-align: left;
-}
+    
 
 
-
-/* Default styling */
-th, td {
-    height: 30px;
-    font-size: 150%;
-    color: #555555; 
-}
-
-div > table{
-    float: left;
-}
+ .table-responsive-sm{
+    background-color: #fafafa;
+    margin-top: 50px;
+ }
 
 
-/* Desktop Visible */
-
-.desktop {
-    column-width: 150px;
-    font-size: 150%;
-    color: #555555; 
-}
-
-/* On Monday the desktop the time column needs to be slightly wider so that the spacing looks nicer */
-.m-time {
-    column-width: 250px;
-}
-
-/* Hide mobile */
-.mobile, .time {
-    column-width: 0px;
-    font-size: 0%;
-    color: #fafafa /* Change text to match the background, i.e. hidden */  
-}
-
-
-
-/* Arrange div's in a row */
-div > table{
-    float: left;
-}
-
-
-
-@media screen and (max-width: 943px){
-
-    .mobile {
-        column-width: 100px;
-        font-size: 150%;
-        color: #555555; 
-    }
-
-    .m-time, .time {
-        column-width: 300px;
-        font-size: 150%;
-        color: #555555; 
-    }
-
-    .desktop {
-        column-width: 0px;
-        font-size: 0%;
-        color: #fafafa  /* Change text to match the background, i.e. hidden */ 
-    }
-
-
-
-    /* Arrange div's in a column */
-    div > table{
-        float: none;
-    }
-
-} 
-
- 
 
 /*--------------------Gallery------------------*/
 
@@ -480,7 +514,7 @@ div > table{
 #photo {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 3;
     column-gap: 0px;
 }
 
@@ -489,10 +523,12 @@ div > table{
 }
 
 
-@media screen and (max-width: 943px){
+
+
+@media screen and (max-width: 1396px){
 
     #photo{
-        column-count: 3;
+        column-count: 2;
     }
 
 }
@@ -500,7 +536,7 @@ div > table{
 @media screen and (max-width: 943px){
 
     #photo{
-        column-count: 3;
+        column-count: 1;
     }
 
 }
