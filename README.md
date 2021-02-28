@@ -131,8 +131,8 @@ Gallery
 - [Gallery page on a Desktop](assets/testing/Gallery.JPG)
 - [Gallery page on an iphone](assets/testing/Gallery_iphone_X.JPG)
 - During the Githup deployment it was observed that the images did not load.
-- The alt did work as expected for the Gallery Images.
-- [Home page on an iphone](assets/testing/iphone_gallery_alt.JPG) To be Fixed.
+- The alt did work as expected for the Gallery Images. To be Fixed.
+- [Home page on an iphone](assets/testing/iphone_gallery_alt.JPG) 
 
 
 Contact Us
@@ -199,6 +199,9 @@ The Contact Us section allows users to contact the gym as regards membership or 
 During deployment the web page would not open. The images were changed to all lower case to fix this.
 When the Gym Website did open the images would not load.
 The path to the images in both Gitpod and Github have been changed to point to use the full Gitpod URL so that and additional README changes etc. will not break Githup.
+
+
+[Deployed Project](https://fene20.github.io/gym-website/index.html)
 
 
 ## Credits
@@ -518,3 +521,8 @@ Debug paths 2
 Update README Deployment
 - 28th February 2021
 - Updated readme.
+
+
+Add deployed project link
+- 28th February 2021
+- Add link to deployed project
