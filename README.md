@@ -491,3 +491,8 @@ Rename images
 - 28th February 2021
 - Changed images to all lower case.
 - Updates style.css for Hero Image and gallery.html for gallery images.
+
+
+Debug image path for Github.
+- 28th February 2021
+- add ./assets etc.
