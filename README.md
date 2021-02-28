@@ -97,38 +97,49 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Testing
 
-
+Home Page
+- Home page works as expected.
+- The Gym Icon and menu change colour with a hover.
+- The Active page is highlighted.
+- The page is responsive.
+- The social media icons open new pages - for every Gym Website page.
 - [Home page on a Desktop](assets/testing/Home.JPG)
 - [Home page on an iphone](assets/testing/Home_iphone_X.JPG)
 
+
+Classes
+- The classes page works well in desktop.
+- It can be moved left and right on an iphone.
+- The Active page is highlighted.
+- It hovever does not scroll down correctly for an iphone. To be Fixed.
+- The solid line under the menu does not remain fixed under the menu with scrolling. To be Fixed.
 - [Classes page on a Desktop](assets/testing/Classes.JPG)
 - [Classes page on an iphone](assets/testing/Classes_iphone_X.JPG)
 
+
+Gallery
+- The Active page is highlighted.
+- The gallery page works well in a desktop. It scrolls up and down.
+- The gallery page changes to 2 columns for an ipad.
+- The gallery page changes to 1 columns for an iphone.
 - [Gallery page on a Desktop](assets/testing/Gallery.JPG)
 - [Gallery page on an iphone](assets/testing/Gallery_iphone_X.JPG)
 
+
+Contact Us
+- The Contact Us page looks ok on desktop.
+- The Active page is highlighted.
+- There is a slight misalignment to the right for the First Name box. To be Fixed.
+- All form fields must be filled before a form is submit.
+- A valid email address must be entered before a form is submit.
+- The ful page scrolls up/down on an iphone.
+- The solid line under the menu does not remain fixed under the menu with scrolling. To be Fixed.
 - [Contact Us page on a Desktop](assets/testing/Contact_Us.JPG)
 - [Contact Us page on an iphone](assets/testing/Contact_iphone_X.JPG)
 
 
+The code works ok with the exception of the "To be Fixed" items detailed.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Code Validation results.
 
@@ -155,11 +166,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
-https://stock.adobe.com/ie/
+- The photos used in this site were obtained from https://stock.adobe.com/ie/
 
 
 ### Acknowledgements
@@ -170,7 +179,7 @@ https://stock.adobe.com/ie/
 - The template for this project is the Code Institute student template for Gitpod.
 - The Gallery was 100% copy and paste from Code Institute Love Running Lesson.
 - The hero image alt text solution came from https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
-
+- Excellence Ilesanmi provided tutor support and feedback on the Gym Website pages.
 
 
 ### Challenges
@@ -420,3 +429,8 @@ Updated Readme 5
 Updated Readme 6
 - 28th February 2021
 - Add last 2 test images again
+
+
+Updated Readme 7
+- 28th February 2021
+- Added testing updates.
